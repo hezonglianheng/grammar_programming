@@ -3,3 +3,6 @@ build/
 *.spec
 __pycache__
 testdata
+*.zip
+ChineseResource/
+*_ruby_*

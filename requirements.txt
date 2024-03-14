@@ -2,6 +2,7 @@ altgraph==0.17.4
 cffi==1.16.0
 chardet==5.2.0
 charset-normalizer==3.3.2
+colorama==0.4.6
 cryptography==42.0.5
 lxml==5.1.0
 packaging==23.2
@@ -16,4 +17,5 @@ pypdfium2==4.27.0
 python-docx==1.1.0
 pywin32-ctypes==0.2.2
 setuptools==69.1.1
+tqdm==4.66.2
 typing_extensions==4.10.0

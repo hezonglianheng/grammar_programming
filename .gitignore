@@ -6,3 +6,4 @@ testdata
 *.zip
 ChineseResource/
 *_ruby_*
+test

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 2,
+    "text": "isPlace",
+    "prefixKey": null,
+    "suffixKey": "a",
+    "backgroundColor": "#73D8FF",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 3,
+    "text": "isDeparture",
+    "prefixKey": null,
+    "suffixKey": "b",
+    "backgroundColor": "#7B64FF",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 4,
+    "text": "isDestination",
+    "prefixKey": null,
+    "suffixKey": "c",
+    "backgroundColor": "#653294",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 5,
+    "text": "isOrientation",
+    "prefixKey": null,
+    "suffixKey": "d",
+    "backgroundColor": "#0C797D",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 6,
+    "text": "isDirection",
+    "prefixKey": null,
+    "suffixKey": "e",
+    "backgroundColor": "#A4DD00",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 7,
+    "text": "isPath",
+    "prefixKey": null,
+    "suffixKey": "f",
+    "backgroundColor": "#68CCCA",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 8,
+    "text": "isPreposition",
+    "prefixKey": null,
+    "suffixKey": "g",
+    "backgroundColor": "#FDA1FF",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 9,
+    "text": "isLocation",
+    "prefixKey": null,
+    "suffixKey": "h",
+    "backgroundColor": "#AB149E",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 10,
+    "text": "isAction",
+    "prefixKey": null,
+    "suffixKey": "i",
+    "backgroundColor": "#FCDC00",
+    "textColor": "#ffffff"
+  },
+  {
+    "id": 11,
+    "text": "isTranslation",
+    "prefixKey": null,
+    "suffixKey": "j",
+    "backgroundColor": "#F44E3B",
+    "textColor": "#ffffff"
+  }
+]

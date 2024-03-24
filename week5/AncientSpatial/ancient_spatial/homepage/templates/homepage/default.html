@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>古代汉语方所表达查询系统</title>
+<style>
+    body {
+        font-family: "宋体", serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .title {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .search-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .search-box {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+    .dropdown {
+        font-size: 24px;
+    }
+    .buttons {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    button {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <div class="title">古代汉语方所表达查询系统</div>
+    <div class="search-container">
+        <input class="search-box" type="text" placeholder="请输入查询内容">
+        <select class="dropdown">
+            <option value="sheti">射体</option>
+            <option value="jiebiao">界标</option>
+            <option value="shijian">事件</option>
+            <option value="jieci">介词</option>
+            <option value="fangweici">方位词</option>
+        </select>
+    </div>
+    <div class="buttons">
+        <button type="button" onclick="location.href='placeholder-url-1'">单语查询</button>
+        <button type="button" onclick="location.href='placeholder-url-2'">古今对照</button>
+        <button type="button" onclick="location.href='placeholder-url-3'">语料统计</button>
+        <button type="button" onclick="location.href='placeholder-url-4'">使用说明</button>
+    </div>
+</body>
+</html>

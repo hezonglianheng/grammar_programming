@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>古代汉语方所表达查询系统</title>
+    <style>
+        body {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>古代汉语方所表达查询系统</h1>
+    <input type="text" placeholder="请输入查询内容">
+    <select>
+        <option value="all">全部字段</option>
+        <option value="projectile">射体</option>
+        <option value="boundary">界标</option>
+        <option value="event">事件</option>
+        <option value="direction">方位词</option>
+    </select>
+    <button>单语查询</button>
+    <button>古今对照</button>
+    <button>语料统计</button>
+    <button>使用说明</button>
+    <button onclick="location.href='{% url "homepage:default" %}'">返回主页</button>
+    <p>您的查询没有结果，请返回主页。</p>
+</body>
+</html>

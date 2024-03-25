@@ -5,7 +5,7 @@
 <title>古代汉语方所表达查询系统</title>
 <style>
     body {
-        font-family: "宋体", serif;
+        font-family: "Songti", serif;
         margin: 0;
         padding: 0;
         display: flex;
@@ -41,22 +41,36 @@
 </style>
 </head>
 <body>
+    <! -- 增加处理隐藏值的js函数 -->
+    <script>
+        function updateHiddenInput(value) {
+            document.getElementById('decideApplication').value = value;
+        }
+    </script>
     <div class="title">古代汉语方所表达查询系统</div>
-    <div class="search-container">
-        <input class="search-box" type="text" placeholder="请输入查询内容">
-        <select class="dropdown">
-            <option value="sheti">射体</option>
-            <option value="jiebiao">界标</option>
-            <option value="shijian">事件</option>
-            <option value="jieci">介词</option>
-            <option value="fangweici">方位词</option>
-        </select>
-    </div>
-    <div class="buttons">
-        <button type="button" onclick="location.href='placeholder-url-1'">单语查询</button>
-        <button type="button" onclick="location.href='placeholder-url-2'">古今对照</button>
-        <button type="button" onclick="location.href='placeholder-url-3'">语料统计</button>
-        <button type="button" onclick="location.href='placeholder-url-4'">使用说明</button>
-    </div>
+    <form method="post" action="{% url 'homepage:query' %}">
+        {% csrf_token %}
+        <div class="search-container">
+            <input type="text" name="text_input" style="font-family: Songti; font-size: 24px;" placeholder="请输入查询内容">
+            <select name="queryrange" style="font-family: Songti; font-size: 24px;">
+                <option value='all'>全部字段</option>
+                <option value="trajectory">射体</option>
+                <option value="landmark">界标</option>
+                <option value="event">事件</option>
+                <option value="preposition">介词</option>
+                <option value="location">方位词</option>
+            </select>
+        </div>
+        <! -- 隐藏值 -->
+        <input type="hidden" id="decideApplication" name="useApplication">
+        <div class="buttons">
+            <! -- 前两个按钮用于提交表单-->
+            <button type="submit" onclick="updateHiddenInput('ancient')">单语查询</button>
+            <button type="submit" onclick="updateHiddenInput('parallel')">古今对照</button>
+            <! -- 后两个按钮用于数据库统计 -->
+            <button type="button" onclick="location.href='placeholder-url-3'">语料统计</button>
+            <button type="button" onclick="location.href='placeholder-url-4'">使用说明</button>
+        </div>
+    </form>    
 </body>
 </html>

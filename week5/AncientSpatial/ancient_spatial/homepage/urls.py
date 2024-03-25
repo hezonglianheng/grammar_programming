@@ -7,5 +7,7 @@ from . import views
 
 app_name = "homepage"
 urlpatterns = [
-    path("", views.default, name='default')
+    path("", views.default, name='default'), 
+    # 查询界面
+    path("query", views.query, name='query'),
 ]

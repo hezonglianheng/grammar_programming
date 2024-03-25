@@ -11,4 +11,6 @@ urlpatterns = [
     path("", views.index, name="spatialquery"),
     # 查询结果页面
     path("res/<str:text_input>/<str:queryrange>/", views.res, name="spatialqueryres"),
+    # 查询详情页面
+    path("resdetail/<int:space_id>/", views.detail, name="resdetail"),
 ]

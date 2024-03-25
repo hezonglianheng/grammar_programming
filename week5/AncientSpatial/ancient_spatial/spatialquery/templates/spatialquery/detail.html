@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>语料详情</title>
+    <style>
+        body {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>古代汉语方所表达查询系统</h1>
+    <div>
+        <ul>
+            <li>书名：{{ space.source.title }}</li>
+            <li>副标题：{{ space.source.subtitle }}</li>
+            <li style="word-wrap: break-word;">
+                正文：
+                {% for a, j in index %}
+                    {% if j %}
+                        <span style="color: red;">{{ space.source.context|slice:a }}</span>
+                    {% else %}
+                        {{ space.source.context|slice:a }}
+                    {% endif %}
+                {% endfor %}
+            </li>
+            <table>
+                <tr>
+                    <th>角色</th>
+                    <th>文本</th>
+                </tr>
+                <tr>
+                    <td>射体1</td>
+                    <td>{{ spatial_string.trajectory1 }}</td>
+                </tr>
+                <tr>
+                    <td>射体2</td>
+                    <td>{{ spatial_string.trajectory2 }}</td>
+                </tr>
+                <tr>
+                    <td>界标</td>
+                    <td>{{ spatial_string.landmark }}</td>
+                </tr>
+                <tr>
+                    <td>事件</td>
+                    <td>{{ spatial_string.event }}</td>
+                </tr>
+                <tr>
+                    <td>介词</td>
+                    <td>{{ spatial_string.preposition }}</td>
+                </tr>
+                <tr>
+                    <td>方位词</td>
+                    <td>{{ spatial_string.location }}</td>
+                </tr>
+            </table>
+        </ul>
+    </div>
+</body>
+</html>

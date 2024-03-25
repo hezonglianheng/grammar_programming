@@ -58,7 +58,7 @@ def res(request, text_input, queryrange):
         return render(request, "spatialquery/noresults.html")
     else:
         # 计算切片长度等信息构成条目
-        items: list[list[SpaceInfo, str, str, str]] = []
+        aitems: list[list[SpaceInfo, str, str, str]] = []
         for i in results:
             for k in qkeys:
                 if judge_in(getattr(i, k).text):
@@ -66,10 +66,10 @@ def res(request, text_input, queryrange):
                     b: str = str(getattr(i, k).start)
                     c: str = str(getattr(i, k).end)
                     d: str = str(min(getattr(i, k).end+SHOW_RANGE, len(i.source.context)))
-                    items.append([i, f"{a}:{b}", f"{b}:{c}", f"{c}:{d}"])
+                    aitems.append([i, f"{a}:{b}", f"{b}:{c}", f"{c}:{d}"])
                     # break
         # 加入分页逻辑
-        paginator = Paginator(items, PAGE_SIZE)
+        paginator = Paginator(aitems, PAGE_SIZE)
 
         try:
             # 获取当前页码
@@ -83,8 +83,25 @@ def res(request, text_input, queryrange):
             # 如果页码超出范围，则返回最后一页
             items = paginator.page(paginator.num_pages)
         # 返回查询结果
-        return render(request, "spatialquery/getresults.html", {"items": items, "page_num": paginator.num_pages})
+        return render(request, "spatialquery/getresults.html", {"items": items, "page_num": paginator.num_pages, "page_sum": len(aitems), "page_start": items.start_index(), "page_end": items.end_index()})
 
 
 def detail(request, space_id):
-    pass
+    space = get_object_or_404(SpaceInfo, pk=space_id)
+    # 空间角色关键字
+    spatial_keys = reduce(lambda x, y: x + y, [i for i in range_key.values()])
+    # 空间角色值
+    spatial_values: list[TextInfo|None] = [getattr(space, i) for i in spatial_keys]
+    # 求取字符串
+    spatial_string_dict = {k:s for k, s in zip(spatial_keys, [i.text if i else '' for i in spatial_values])}
+    # 求取非空索引值
+    index_not_none = [(i.start, i.end) for i in [k for k in spatial_values if k]]
+    index_not_none.sort(key=lambda x: x[0]) # 排序
+    # 求取索引值
+    index = [(f"0:{index_not_none[0][0]}", False)]
+    for i in range(len(index_not_none)):
+        index.append((f"{index_not_none[i][0]}:{index_not_none[i][1]}", True))
+        if i < len(index_not_none)-1:
+            index.append((f"{index_not_none[i][1]}:{index_not_none[i+1][0]}", False))
+    index.append((f"{index_not_none[-1][1]}:{len(space.source.context)}", False))
+    return render(request, "spatialquery/detail.html", {"space": space, "spatial_string": spatial_string_dict, "index": index})

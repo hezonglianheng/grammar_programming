@@ -28,6 +28,7 @@ TO_ID = 'to_id'
 TYPE = 'type'
 # relation types
 isPlace = "isPlace"
+isPart = "isPart" # 新增：部件处所关系
 isDeparture = "isDeparture"
 isDestination = "isDestination"
 isOrientation = "isOrientation"
@@ -39,6 +40,7 @@ isAction = "isAction"
 isTranslation = "isTranslation"
 spatial_relation = [
     isPlace, 
+    isPart,
     isDeparture, 
     isDestination, 
     isOrientation, 

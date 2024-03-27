@@ -5,6 +5,7 @@ import os
 import json # 处理json文件
 import django
 import sys # 接受命令行参数
+from tqdm import tqdm # 进度条
 from typing import Literal, Optional
 from config import *
 
@@ -41,7 +42,7 @@ def update_ancient(mode: Literal['r', 'e']):
         pass
 
     # 写入数据集
-    for item in data:
+    for item in tqdm(data, desc="写入数据集"):
         # 先写入原文基本信息
         origin = models.OriginalText(title=item[TITLE], subtitle=item[SUBTITLE], context=item[ANCIENT_TEXT])
         origin.save() # 记得存入
@@ -60,7 +61,7 @@ def update_data(datatype: Literal['a', 'p'], mode: Literal['r', 'e']):
     """进行数据的更新"""
     assert mode == 'r' or mode == 'e', f"no mode '{mode}'"
     if datatype == 'a':
-        update_ancient(mode)
+        update_ancient(mode) # 更新古代汉语数据
     elif datatype == 'p':
         pass
     else:

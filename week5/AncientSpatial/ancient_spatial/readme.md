@@ -21,8 +21,15 @@
 
 ## 使用说明（待完善）
 
-## 启用方法
+## 使用方法
+### 数据库添加方法
 1. 根据本仓库中的`requirements.txt`配置环境（Python3.12）.
-2. 在命令行中`cd`到本文件所在目录下。
+2. 将使用[doccano](https://github.com/doccano/doccano)工具标注的数据放入`corpus\jsonline_corpus\admin.jsonl`.
+3. 启动`py extract_ancient.py`.
+4. 启动`py update_data.py -a -r`.
+5. 数据库更新完成.
+### 服务器启动方法
+1. 根据本仓库中的`requirements.txt`配置环境（Python3.12）.
+2. 在命令行中`cd`到本文件所在目录下.
 3. 在保证环境激活（特别是虚拟环境）的前提下，在命令行中输入命令`py manage.py runserver [port]`。端口port可以自行指定，默认为8000.
-4. 在浏览器中输入`localhost:[port]`（端口port在3中已经指定好），启动程序。
+4. 在浏览器中输入`localhost:[port]`（端口port在3中已经指定好），启动程序.

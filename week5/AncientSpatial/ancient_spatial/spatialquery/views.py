@@ -61,7 +61,8 @@ def res(request, text_input, queryrange):
         aitems: list[list[SpaceInfo, str, str, str]] = []
         for i in results:
             for k in qkeys:
-                if judge_in(getattr(i, k).text):
+                # 判断是否存在该关键字，再判断查询内容是否在文本内
+                if getattr(i, k) and judge_in(getattr(i, k).text):
                     a: str = str(max(getattr(i, k).start-SHOW_RANGE, 0))
                     b: str = str(getattr(i, k).start)
                     c: str = str(getattr(i, k).end)
@@ -96,6 +97,7 @@ def detail(request, space_id):
     spatial_string_dict = {k:s for k, s in zip(spatial_keys, [i.text if i else '' for i in spatial_values])}
     # 求取非空索引值
     index_not_none = [(i.start, i.end) for i in [k for k in spatial_values if k]]
+    index_not_none = list(set(index_not_none)) # 去重
     index_not_none.sort(key=lambda x: x[0]) # 排序
     # 求取索引值
     index = [(f"0:{index_not_none[0][0]}", False)]
@@ -104,4 +106,5 @@ def detail(request, space_id):
         if i < len(index_not_none)-1:
             index.append((f"{index_not_none[i][1]}:{index_not_none[i+1][0]}", False))
     index.append((f"{index_not_none[-1][1]}:{len(space.source.context)}", False))
+    # index = list(set(index)) # 去重
     return render(request, "spatialquery/detail.html", {"space": space, "spatial_string": spatial_string_dict, "index": index})

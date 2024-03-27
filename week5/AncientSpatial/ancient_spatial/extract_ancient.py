@@ -15,15 +15,15 @@ def data_extract(annotated: dict, need: Literal['ancient', 'modern'] = 'ancient'
     """从标注数据中提取古代/现代汉语数据"""
     # 切割古今语料
     need_idx: int = 0 if need == 'ancient' else 1
-    ancient_text = annotated[TEXT].split('\n')[need_idx]
-    text_len = len(ancient_text)
+    _text = annotated[TEXT].split('\n')[need_idx]
+    text_len = len(_text)
     # 筛选entities
     ancient_entities = [i for i in annotated[ENTITIES] if i[START_OFFSET] <= text_len and i[END_OFFSET] <= text_len]
     # 筛选relations
     entities_ids = [i[ID] for i in ancient_entities] # entities的id
     ancient_relations = [i for i in annotated[RELATIONS]] # 通过entities的id筛选relations
     return {
-        ANCIENT_TEXT: ancient_text, # 文本
+        ANCIENT_TEXT: _text, # 文本
         SOURCE: annotated[SOURCE], # 来源
         ENTITIES: ancient_entities, # 实体
         RELATIONS: ancient_relations, # 关系
@@ -81,7 +81,9 @@ def annotation2space(annotated: dict) -> dict:
     for m in landmarks:
         # 射体，可能有1个或多个
         trajectory = relation2entities([i for i in relations if i[FROM_ID] == m[ID] and i[TYPE] in spatial_relation], TO_ID)
-        _type = [i for i in relations if i[FROM_ID] == m[ID] and i[TYPE] in spatial_relation][0][TYPE]
+        _types = [i for i in relations if i[FROM_ID] == m[ID] and i[TYPE] in spatial_relation]
+        assert len(_types) >= 1, f"{annotated[SOURCE]}, {annotated[ANCIENT_TEXT][m[START_OFFSET]:m[END_OFFSET]]}" # 界标只能有1个类型
+        _type = _types[0][TYPE]
         # 界标，可能有1个
         preposition = relation2entities([i for i in relations if i[TO_ID] == m[ID] and i[TYPE] == isPreposition])
         # 方位词，可能有1个
@@ -93,7 +95,7 @@ def annotation2space(annotated: dict) -> dict:
         event: list[list[dict]] = []
         for t in trajectory:
             curr_event = relation2entities([i for i in relations if i[TO_ID] == t[ID] and i[TYPE] == isAction])
-            assert 0 <= len(curr_event) <= 1 # 事件只能有0~1个
+            assert 0 <= len(curr_event) <= 1, f"{annotated[SOURCE]}, {annotated[ANCIENT_TEXT][t[START_OFFSET]:t[END_OFFSET]]}" # 事件只能有0~1个
             event.append(curr_event)
         assert len(event) == len(trajectory) # 实体事件一一对应
         # 产生1条完整SpaCE信息

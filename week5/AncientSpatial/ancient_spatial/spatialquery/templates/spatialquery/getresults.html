@@ -9,9 +9,17 @@
     </style>
 </head>
 <body>
+    <! -- 增加处理隐藏值的js函数 -->
+    <script>
+        function updateHiddenInput(value) {
+            document.getElementById('decideApplication').value = value;
+        }
+    </script>
     <h1>古代汉语方所表达查询系统</h1>
-    <input type="text" placeholder="请输入查询内容">
-    <select>
+<form method="post" action="{% url 'homepage:query' %}">
+    {% csrf_token %}
+    <input type="text" name="text_input" placeholder="请输入查询内容">
+    <select name="queryrange">
         <option value="all">全部字段</option>
         <option value="trajectory">射体</option>
         <option value="landmark">界标</option>
@@ -19,11 +27,14 @@
         <option value="preposition">介词</option>
         <option value="direction">方位词</option>
     </select>
-    <button>单语查询</button>
-    <button>古今对照</button>
+    <! -- 隐藏值 -->
+    <input type="hidden" id="decideApplication" name="useApplication">
+    <button type="submit" onclick="updateHiddenInput('ancient')">单语查询</button>
+    <button type="submit" onclick="updateHiddenInput('parallel')">古今对照</button>
     <button>语料统计</button>
     <button>使用说明</button>
-    <button onclick="location.href='{% url "homepage:default" %}'">返回主页</button>
+    <button type="button" onclick="location.href='{% url "homepage:default" %}'">返回主页</button>
+</form>
     <! -- 查询数量 -->
     <div>共有{{ page_sum }}条结果，这是第{{ page_start }}~{{ page_end }}条。</div>
     {% if items %}

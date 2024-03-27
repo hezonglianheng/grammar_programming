@@ -96,6 +96,7 @@ def detail(request, space_id):
     spatial_string_dict = {k:s for k, s in zip(spatial_keys, [i.text if i else '' for i in spatial_values])}
     # 求取非空索引值
     index_not_none = [(i.start, i.end) for i in [k for k in spatial_values if k]]
+    index_not_none = list(set(index_not_none)) # 去重
     index_not_none.sort(key=lambda x: x[0]) # 排序
     # 求取索引值
     index = [(f"0:{index_not_none[0][0]}", False)]
@@ -104,4 +105,5 @@ def detail(request, space_id):
         if i < len(index_not_none)-1:
             index.append((f"{index_not_none[i][1]}:{index_not_none[i+1][0]}", False))
     index.append((f"{index_not_none[-1][1]}:{len(space.source.context)}", False))
+    # index = list(set(index)) # 去重
     return render(request, "spatialquery/detail.html", {"space": space, "spatial_string": spatial_string_dict, "index": index})

@@ -61,7 +61,8 @@ def res(request, text_input, queryrange):
         aitems: list[list[SpaceInfo, str, str, str]] = []
         for i in results:
             for k in qkeys:
-                if judge_in(getattr(i, k).text):
+                # 判断是否存在该关键字，再判断查询内容是否在文本内
+                if getattr(i, k) and judge_in(getattr(i, k).text):
                     a: str = str(max(getattr(i, k).start-SHOW_RANGE, 0))
                     b: str = str(getattr(i, k).start)
                     c: str = str(getattr(i, k).end)

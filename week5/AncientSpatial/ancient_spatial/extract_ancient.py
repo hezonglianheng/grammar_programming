@@ -3,6 +3,7 @@
 
 import jsonlines # 处理jsonlines文件
 import json # 处理json文件
+import os # 处理文件路径
 from tqdm import tqdm # 进度条
 from typing import Literal
 from config import *
@@ -82,7 +83,10 @@ def annotation2space(annotated: dict) -> dict:
         # 射体，可能有1个或多个
         trajectory = relation2entities([i for i in relations if i[FROM_ID] == m[ID] and i[TYPE] in spatial_relation], TO_ID)
         _types = [i for i in relations if i[FROM_ID] == m[ID] and i[TYPE] in spatial_relation]
-        assert len(_types) >= 1, f"{annotated[SOURCE]}, {annotated[ANCIENT_TEXT][m[START_OFFSET]:m[END_OFFSET]]}" # 界标只能有1个类型
+        # assert len(_types) >= 1, f"{annotated[SOURCE]}, {annotated[ANCIENT_TEXT][m[START_OFFSET]-5:m[END_OFFSET]+5]}" # 界标只能有1个类型
+        if len(_types) < 1:
+            print(f"{annotated[SOURCE]}, {annotated[ANCIENT_TEXT][m[START_OFFSET]-5:m[END_OFFSET]+5]}")
+            break
         _type = _types[0][TYPE]
         # 界标，可能有1个
         preposition = relation2entities([i for i in relations if i[TO_ID] == m[ID] and i[TYPE] == isPreposition])
@@ -119,9 +123,18 @@ def annotation2space(annotated: dict) -> dict:
 
 if __name__ == "__main__":
     print('开始从标注文件中抽取语料.')
+    '''
     with jsonlines.open(ANNOTATED) as reader:
         extracted = [data_extract(i) for i in reader]
+    '''
 
+    # 从文件夹逐个读取
+    extracted = []
+    for i in os.listdir(ANNOTATED_DIR):
+        if JSONL_SUFFIX in i:
+            with jsonlines.open(os.path.join(ANNOTATED_DIR, i)) as reader:
+                extracted.extend([data_extract(j) for j in reader])
+    
     organized = []    
     for i in tqdm(extracted, desc='语料合并'):
         ancient_concat(i)

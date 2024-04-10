@@ -14,10 +14,16 @@ def query(request):
     if request.method == "POST":
         text_input = request.POST.get("text_input")
         queryrange = request.POST.get("queryrange")
-        useApplication: Literal['ancient', 'parallel'] = request.POST.get("useApplication")
+        semanticrange = request.POST.get("semanticrange") # 添加属性语义范围
+        useApplication: Literal['ancient', 'parallel', 'pattern'] = request.POST.get("useApplication")
         if useApplication == 'ancient':
-            return redirect(reverse("spatialquery:spatialqueryres", args=(text_input, queryrange)))
+            # 跳转到古代查询的页面
+            return redirect(reverse("spatialquery:spatialqueryres", args=(text_input, queryrange, semanticrange)))
         elif useApplication == 'parallel':
+            # 跳转到双语对齐语料查询的页面
+            pass
+        elif useApplication == 'pattern':
+            # 跳转到模式查询的页面
             pass
         # return HttpResponse("text_input: %s, queryrange: %s, useApplication: %s" % (text_input, queryrange, useApplication))
     return HttpResponse("功能尚未开发，敬请期待……")

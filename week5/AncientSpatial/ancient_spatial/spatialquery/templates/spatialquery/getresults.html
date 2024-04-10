@@ -31,7 +31,7 @@
     <input type="hidden" id="decideApplication" name="useApplication">
     <button type="submit" onclick="updateHiddenInput('ancient')">单语查询</button>
     <button type="submit" onclick="updateHiddenInput('parallel')">古今对照</button>
-    <button>语料统计</button>
+    <button type="button" onclick="location.href='{% url "corpus_stat:guide" %}'">语料统计</button>
     <button>使用说明</button>
     <button type="button" onclick="location.href='{% url "homepage:default" %}'">返回主页</button>
 </form>

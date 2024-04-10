@@ -18,13 +18,26 @@ range_key = {
     'preposition': ['preposition'],
     'location': ['location'],
 }
+# 语义范围列名
+semantic_name = 'spatial_type'
+# 语义范围与关键字对应的字典
+semantic_key = {
+    'place': ['isPlace'],
+    'departure': ['isDeparture'],
+    'destination': ['isDestination'],
+    'orientation': ['isOrientation'],
+    'direction': ['isDirection'],
+    'path': ['isPath'],
+    'part': ['isPart'],
+}
 SHOW_RANGE: int = 30
 PAGE_SIZE: int = 30
 
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 
-def res(request, text_input, queryrange):
+# 修改：在原有的query函数中添加了对语义范围的处理
+def res(request, text_input, queryrange, semanticrange):
     def judge_in(text: str) -> bool:
         # 备用：模糊查询与精确查询
         if True:
@@ -35,8 +48,8 @@ def res(request, text_input, queryrange):
     qkeys: list[str] = []
     # 若查询范围为all，则查询所有的关键字
     if queryrange == 'all':
-        for key in range_key:
-            qkeys.extend(range_key[key])
+        # 修改：使用reduce重构列表
+        qkeys = reduce(lambda x, y: x + y, [i for i in range_key.values()])
     # 否则查询指定范围的关键字
     else:
         qkeys = range_key[queryrange]
@@ -51,7 +64,14 @@ def res(request, text_input, queryrange):
     qs = [Q(**{key: text_input}) for key in vague_qkeys]
     q = reduce(lambda x, y: x | y, qs)
     results = SpaceInfo.objects.filter(q)
-    # Do something with the results
+
+    # 通过语义范围再次过滤查询结果
+    if semanticrange == 'all':
+        pass
+    elif semanticrange in semantic_key:
+        results = results.filter(spatial_type=semantic_key[semanticrange][0])
+    else:
+        return render(request, "spatialquery/noresults.html")
 
     if len(results) == 0:
         # 没有结果返回特定页面
@@ -68,7 +88,7 @@ def res(request, text_input, queryrange):
                     c: str = str(getattr(i, k).end)
                     d: str = str(min(getattr(i, k).end+SHOW_RANGE, len(i.source.context)))
                     aitems.append([i, f"{a}:{b}", f"{b}:{c}", f"{c}:{d}"])
-                    # break
+                    break
         # 加入分页逻辑
         paginator = Paginator(aitems, PAGE_SIZE)
 
@@ -86,8 +106,16 @@ def res(request, text_input, queryrange):
         # 返回查询结果
         return render(request, "spatialquery/getresults.html", {"items": items, "page_num": paginator.num_pages, "page_sum": len(aitems), "page_start": items.start_index(), "page_end": items.end_index()})
 
-
 def detail(request, space_id):
+    """显示某条空间信息的详细信息
+
+    Args:
+        request: 访问请求，由Django自动传入
+        space_id: 语料的id
+
+    Returns:
+        返回请求具体信息的页面
+    """    """"""
     space = get_object_or_404(SpaceInfo, pk=space_id)
     # 空间角色关键字
     spatial_keys = reduce(lambda x, y: x + y, [i for i in range_key.values()])

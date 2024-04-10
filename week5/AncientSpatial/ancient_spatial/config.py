@@ -1,6 +1,8 @@
 # encoding: utf8
 # 文件路径
 ANNOTATED = r'corpus\jsonline_corpus\admin.jsonl' # 标注文件
+ANNOTATED_DIR = r'corpus\jsonline_corpus' # 标注文件夹
+JSONL_SUFFIX = '.jsonl' # jsonlines文件后缀
 ANCIENT_RES = r"corpus\json_corpus\ancient.json" # 古代汉语提取结果
 
 # jsonlines字段名称

@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+# 之后可以考虑将语料原文竖着存储到数据库中
 
 class OriginalText(models.Model):
     """表示原文数据表的类"""

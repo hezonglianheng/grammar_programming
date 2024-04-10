@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     # "网站"首页
     "homepage.apps.HomepageConfig", 
     # 古代汉语语料检索
-    "spatialquery.apps.SpatialqueryConfig"
+    "spatialquery.apps.SpatialqueryConfig", 
+    # 语料情况统计
+    "corpus_stat.apps.CorpusStatConfig",
 ]
 
 MIDDLEWARE = [

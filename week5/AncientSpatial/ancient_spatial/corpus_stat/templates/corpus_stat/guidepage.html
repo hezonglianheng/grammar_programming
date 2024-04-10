@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>古代汉语方所表达统计</title>
+</head>
+<style>
+    body {
+        font-family: "Songti", serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .title {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .search-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .search-box {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+    .dropdown {
+        font-size: 24px;
+    }
+    .buttons {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    button {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <h1>古代汉语方所表达统计</h1>
+    <form method="get" action="{% url 'corpus_stat:query' %}">
+        <select name="category">
+            <option value="all">全部</option>
+            <option value="place">处所</option>
+            <option value="departure">起点</option>
+            <option value="destination">终点</option>
+            <option value="orientation">朝向</option>
+            <option value="direction">方向</option>
+            <option value="path">路径</option>
+            <option value="part">部件处所</option>
+        </select>
+        <button type="submit" name="action" value="semantic">语义统计</button>
+        <button type="submit" name="action" value="preposition">介词统计</button>
+        <button type="submit" name="action" value="verb">动词统计</button>
+        <button type="button" onclick="location.href='{% url "homepage:default" %}'">返回主页</button>
+    </form>
+</body>
+</html>

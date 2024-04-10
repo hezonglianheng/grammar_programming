@@ -80,7 +80,7 @@
             <button type="submit" onclick="updateHiddenInput('parallel')">古今对照</button>
             <button type="submit" onclick="updateHiddenInput('pattern')">模式查询</button>
             <! -- 后两个按钮用于数据库统计 -->
-            <button type="button" onclick="location.href='placeholder-url-3'">语料统计</button>
+            <button type="button" onclick="location.href='{% url "corpus_stat:guide" %}'">语料统计</button>
             <button type="button" onclick="location.href='placeholder-url-4'">使用说明</button>
         </div>
     </form>    

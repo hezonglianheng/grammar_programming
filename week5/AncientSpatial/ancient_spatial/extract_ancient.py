@@ -103,13 +103,16 @@ def annotation2space(annotated: dict) -> dict:
         # 方位词，可能有1个
         location = relation2entities([i for i in relations if i[TO_ID] == m[ID] and i[TYPE] == isLocation])
         # 事件，与射体相对应
-        assert 1 <= len(trajectory) <= 2 # 实体只能有1~2个
-        assert 0 <= len(preposition) <= 1 # 界标只能有0~1个
-        assert 0 <= len(location) <= 1 # 方位词只能有0~1个
+        # 修改语料标注合法性检查行为
+        # 实体只能有1~2个 界标只能有0~1个 方位词只能有0~1个
+        if not 1 <= len(trajectory) <= 2 or not 0 <= len(preposition) <= 1 or not 0 <= len(location) <= 1:
+            print(f"{annotated[SOURCE]}, {annotated[ANCIENT_TEXT][m[START_OFFSET]-5:m[END_OFFSET]+5]}")
+        # assert 0 <= len(preposition) <= 1 # 界标只能有0~1个
+        # assert 0 <= len(location) <= 1 # 方位词只能有0~1个
         event: list[list[dict]] = []
         for t in trajectory:
             curr_event = relation2entities([i for i in relations if i[TO_ID] == t[ID] and i[TYPE] == isAction])
-            # # 事件只能有0~1个
+            # 事件只能有0~1个
             if 0 <= len(curr_event) <= 1:
                 event.append(curr_event)
             else:

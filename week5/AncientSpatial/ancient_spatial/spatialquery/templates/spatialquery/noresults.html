@@ -20,7 +20,7 @@
     </select>
     <button>单语查询</button>
     <button>古今对照</button>
-    <button>语料统计</button>
+    <button onclick="location.href='{% url "corpus_stat:guide" %}'">语料统计</button>
     <button>使用说明</button>
     <button onclick="location.href='{% url "homepage:default" %}'">返回主页</button>
     <p>您的查询没有结果，请返回主页。</p>

@@ -16,6 +16,15 @@ ActionType = Literal['semantic', 'preposition', 'verb']
 
 # 语义类型标签
 semantic_dict = {
+    'isPlace': '处所',
+    'isDeparture': '起点',
+    'isDestination': '终点',
+    'isOrientation': '朝向',
+    'isDirection': '方向',
+    'isPath': '路径',
+    'isPart': '部件',
+}
+range_dict = {
     'place': '处所',
     'departure': '起点',
     'destination': '终点',
@@ -23,14 +32,16 @@ semantic_dict = {
     'direction': '方向',
     'path': '路径',
     'part': '部件处所',
+    'all': '全部',
 }
-range_dict = semantic_dict | {'all': '全部'}
 # 其他常量
 TOTAL = "总计"
 EVENT = 'event'
 PREP = 'preposition'
 TITLE = "title"
 RANGE = "range"
+CATEGORY = "category"
+ROLE = 'role'
 
 # Create your views here.
 def guide(request):
@@ -84,7 +95,7 @@ def prep(request, category: CategoryType):
     preposition_counter = Counter([item.preposition.text if item.preposition else "无介词" for item in qres])
     # 按照出现次数从大到小排序
     sorted_prepositions = preposition_counter.most_common()
-    return render(request, "corpus_stat/statres.html", {'res_list': sorted_prepositions, TITLE: '介词', RANGE: range_dict[category]})
+    return render(request, "corpus_stat/statres_withform.html", {'res_list': sorted_prepositions, TITLE: '介词', RANGE: range_dict[category], ROLE: "preposition", CATEGORY: category})
 
 def verb(request, category: CategoryType):
     # 根据语义范畴进行查询
@@ -96,4 +107,4 @@ def verb(request, category: CategoryType):
     event_counter = Counter([item.event.text if item.event else "无事件" for item in qres])
     # 按照出现次数从大到小排序
     sorted_event = event_counter.most_common()
-    return render(request, "corpus_stat/statres.html", {'res_list': sorted_event, TITLE: '事件', RANGE: range_dict[category]})
+    return render(request, "corpus_stat/statres_withform.html", {'res_list': sorted_event, TITLE: '事件', RANGE: range_dict[category], ROLE: "event", CATEGORY: category})

@@ -65,3 +65,21 @@ ROLES = [
     PREPOSITION, 
     LOCATION
 ]
+
+# 表达模式各元素
+PATTERN_DICT = {
+    TR1: "tr",
+    TR2: "tr",
+    LANDMARK: "lm",
+    EVENT: "ev",
+    LOCATION: "lo",
+    PREPOSITION: "pr",
+}
+PATTERN_JOIN = "+"
+PATTERN2ROLE = {
+    "tr": [TR1, TR2],
+    "lm": [LANDMARK],
+    "ev": [EVENT],
+    "lo": [LOCATION],
+    "pr": [PREPOSITION],
+}

@@ -24,6 +24,6 @@ def query(request):
             pass
         elif useApplication == 'pattern':
             # 跳转到模式查询的页面
-            pass
+            return redirect(reverse("patternquery:queryres", args=(text_input, semanticrange)))
         # return HttpResponse("text_input: %s, queryrange: %s, useApplication: %s" % (text_input, queryrange, useApplication))
     return HttpResponse("功能尚未开发，敬请期待……")

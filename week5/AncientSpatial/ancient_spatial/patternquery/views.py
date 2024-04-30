@@ -11,6 +11,7 @@ from spatialquery.models import OriginalText, TextInfo, SpaceInfo
 from config import PATTERN_DICT, PATTERN_JOIN, PATTERN2ROLE, TR1
 from typing import Optional
 from spatialquery.views import SHOW_RANGE, PAGE_SIZE, semantic_key, semantic_name
+from homepage.views import QMODE
 
 def expression_parse(exp: str) -> Optional[list[tuple[str, Optional[str]]]]:
     """解析模式查询表达式\n
@@ -40,7 +41,7 @@ def expression_parse(exp: str) -> Optional[list[tuple[str, Optional[str]]]]:
         res.append((role, word))
     return res
 
-def queryres(request, pattern: str, semanticrange: str):
+def queryres(request, pattern: str, semanticrange: str, querymode: QMODE):
 
     def check_list_order(short_lst: list[str], long_lst: list[str]) -> bool:
         """检查短列表是否为长列表的子序列\n
@@ -59,7 +60,6 @@ def queryres(request, pattern: str, semanticrange: str):
 
     # 解析pattern，若解析失败则返回无结果页面
     pattern_lst = expression_parse(pattern)
-    print(pattern_lst)
     if pattern_lst is None:
         return render(request, "patternquery/noresults.html")
     
@@ -68,7 +68,6 @@ def queryres(request, pattern: str, semanticrange: str):
     for role, word in pattern_lst:
         if word is not None:
             for n in PATTERN2ROLE[role]:
-                print(n + "__text__contains")
                 word_info.append(Q(**{n + "__text__contains": word}))
     
     # 若有词语要求则根据词语信息筛选SpaceInfo，否则返回全部SpaceInfo
@@ -85,12 +84,27 @@ def queryres(request, pattern: str, semanticrange: str):
     else:
         return render(request, "patternquery/noresults.html")
 
+    '''
     # 遍历SpaceInfo，解析其pattern，然后比较pattern_lst是否为其子序列，返回命中的全部info
     results: list[SpaceInfo] = []
     for spaceinfo in spaceinfos:
         space_pattern_lst = expression_parse(spaceinfo.pattern)
         if space_pattern_lst is not None and check_list_order([p[0] for p in pattern_lst], [p[0] for p in space_pattern_lst]):
             results.append(spaceinfo)
+    '''
+
+    if querymode == 'accurate':
+        # 精确查询pattern信息
+        pure_pattern = PATTERN_JOIN.join([p[0] for p in pattern_lst])
+        results = spaceinfos.filter(pattern=pure_pattern)
+    elif querymode == 'fuzzy':
+        results: list[SpaceInfo] = []
+        for spaceinfo in spaceinfos:
+            space_pattern_lst = expression_parse(spaceinfo.pattern)
+            if space_pattern_lst is not None and check_list_order([p[0] for p in pattern_lst], [p[0] for p in space_pattern_lst]):
+                results.append(spaceinfo)
+    else:
+        return render(request, "patternquery/noresults.html")
 
     results = [i for i in results if getattr(i, TR1)]
     if not results:

@@ -39,3 +39,5 @@ class SpaceInfo(models.Model):
     location = models.ForeignKey("TextInfo", on_delete=models.CASCADE, blank=True, null=True, related_name="_location")
     # 类型
     spatial_type = models.CharField(max_length=200)
+    # 形式模式
+    pattern = models.CharField(max_length=200, default="")

@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     "spatialquery.apps.SpatialqueryConfig", 
     # 语料情况统计
     "corpus_stat.apps.CorpusStatConfig",
+    # 模式查询
+    "patternquery.apps.PatternqueryConfig",
 ]
 
 MIDDLEWARE = [

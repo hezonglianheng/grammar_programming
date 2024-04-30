@@ -18,10 +18,16 @@
     <h1>{{ title }}统计结果</h1>
     <form id="form1" method="post" action="{% url 'homepage:query' %}">
         {% csrf_token %}
-        <p>这是在语义为{{ range }}的语料上进行统计得到的结果.</p>
+        <p>这是在语义为{{ range }}的语料上进行统计得到的结果. {{ title }}一共有{{ res_list|length }}项（包含缺少的情况）.</p>
         <input type="hidden" name="queryrange" value="{{ role }}">
         <input type="hidden" name="semanticrange" value="{{ category }}">
+        <!-- 从统计结果出发的默认查询为精确查询 -->
+        <input type="hidden" name="querymode" value="accurate">
+        {% if role == "pattern" %}
+        <input type="hidden" name="useApplication" value="pattern">
+        {% else %}
         <input type="hidden" name="useApplication" value="ancient">
+        {% endif %}
         <input type="hidden" name="text_input" id="decide_text_input">
         <table>
             <thead>

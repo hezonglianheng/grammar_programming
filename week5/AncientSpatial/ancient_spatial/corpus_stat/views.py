@@ -12,7 +12,7 @@ from spatialquery.views import semantic_key, semantic_name
 
 # 参数类型标签
 CategoryType = Literal['all', 'place', 'departure', 'destination', 'orientation', 'direction', 'path', 'part']
-ActionType = Literal['semantic', 'preposition', 'verb']
+ActionType = Literal['semantic', 'preposition', 'verb', 'pattern']
 
 # 语义类型标签
 semantic_dict = {
@@ -65,6 +65,8 @@ def query(request):
         return prep(request, category)
     elif action == "verb":
         return verb(request, category)
+    elif action == "pattern":
+        return pattern(request, category)
     return HttpResponse("功能尚未开发，敬请期待……")
 
 def semantic(request, category: CategoryType):
@@ -108,3 +110,15 @@ def verb(request, category: CategoryType):
     # 按照出现次数从大到小排序
     sorted_event = event_counter.most_common()
     return render(request, "corpus_stat/statres_withform.html", {'res_list': sorted_event, TITLE: '事件', RANGE: range_dict[category], ROLE: "event", CATEGORY: category})
+
+def pattern(request, category: CategoryType):
+    # 根据语义范畴进行查询
+    if category == 'all':
+        qres = SpaceInfo.objects.all()
+    else:
+        qres = SpaceInfo.objects.filter(Q(**{semantic_name: semantic_key[category][0]}))
+    # 按照qres中的pattern键的值进行计数
+    pattern_counter = Counter([item.pattern for item in qres])
+    # 按照出现次数从大到小排序
+    sorted_pattern = pattern_counter.most_common()
+    return render(request, "corpus_stat/statres_withform.html", {'res_list': sorted_pattern, TITLE: '表达模式', RANGE: range_dict[category], ROLE: "pattern", CATEGORY: category})

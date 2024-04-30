@@ -117,7 +117,10 @@ def annotation2space(annotated: dict) -> dict:
                 event.append(curr_event)
             else:
                 print(f"{annotated[SOURCE]}, {annotated[ANCIENT_TEXT][t[START_OFFSET]-5:t[END_OFFSET]+5]}")
-        assert len(event) == len(trajectory) # 实体事件一一对应
+        # 实体事件一一对应， 否则输出
+        if not len(event) == len(trajectory):
+            print(f"{annotated[SOURCE]}, {annotated[ANCIENT_TEXT][m[START_OFFSET]-5:m[END_OFFSET]+5]}")
+            break
         # 产生1条完整SpaCE信息
         space_info = {
             TR1: {x: trajectory[0][x] for x in OFFSET_RANGE} | {TEXT: annotated[ANCIENT_TEXT][trajectory[0][START_OFFSET]:trajectory[0][END_OFFSET]]}, 

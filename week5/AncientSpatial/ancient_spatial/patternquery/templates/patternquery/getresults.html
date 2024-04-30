@@ -53,7 +53,7 @@
     <button type="button" onclick="location.href='{% url "homepage:default" %}'">返回主页</button>
 </form>
     <! -- 查询数量 -->
-    <div>这是对“{{ input }}”的{{ querymode }}查询结果，共有{{ page_sum }}条结果，这是第{{ page_start }}~{{ page_end }}条。</div>
+    <div>这是对{{ pattern }}的{{ querymode }}查询结果。共有{{ page_sum }}条结果，这是第{{ page_start }}~{{ page_end }}条。</div>
     {% if items %}
     <! -- 语料显示 -->
     <ol>

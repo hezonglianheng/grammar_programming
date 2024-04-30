@@ -9,6 +9,8 @@ from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage # 用�
 from functools import reduce
 
 from .models import OriginalText, TextInfo, SpaceInfo
+from homepage.views import QMODE
+from config import RELATION_CHINESE, MODE_CHINESE
 
 # 查询范围与关键字对应的字典
 range_key = {
@@ -33,17 +35,16 @@ semantic_key = {
 SHOW_RANGE: int = 30
 PAGE_SIZE: int = 30
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
-
 # 修改：在原有的query函数中添加了对语义范围的处理
-def res(request, text_input, queryrange, semanticrange):
+def res(request, text_input: str, queryrange: str, semanticrange: str, querymode: QMODE):
     def judge_in(text: str) -> bool:
         # 备用：模糊查询与精确查询
-        if True:
-            return text in text_input
-        else:
+        if querymode == 'fuzzy':
+            return text_input in text
+        elif querymode == 'accurate':
             return text == text_input
+        else:
+            return False
 
     qkeys: list[str] = []
     # 若查询范围为all，则查询所有的关键字
@@ -55,10 +56,12 @@ def res(request, text_input, queryrange, semanticrange):
         qkeys = range_key[queryrange]
     
     # 备用：模糊查询与精确查询
-    if True:
+    if querymode == 'fuzzy':
         vague_qkeys = [i + "__text__contains" for i in qkeys]
+    elif querymode == 'accurate':
+        vague_qkeys = [i + "__text" for i in qkeys]
     else:
-        pass
+        return render(request, "spatialquery/noresults.html")
     
     # 合并全部查询条件
     qs = [Q(**{key: text_input}) for key in vague_qkeys]
@@ -73,11 +76,13 @@ def res(request, text_input, queryrange, semanticrange):
     else:
         return render(request, "spatialquery/noresults.html")
 
+    print(len(results))
     if len(results) == 0:
         # 没有结果返回特定页面
         return render(request, "spatialquery/noresults.html")
     else:
         # 计算切片长度等信息构成条目
+        # todo: 找出bug并优化速度
         aitems: list[list[SpaceInfo, str, str, str]] = []
         for i in results:
             for k in qkeys:
@@ -104,7 +109,7 @@ def res(request, text_input, queryrange, semanticrange):
             # 如果页码超出范围，则返回最后一页
             items = paginator.page(paginator.num_pages)
         # 返回查询结果
-        return render(request, "spatialquery/getresults.html", {"items": items, "page_num": paginator.num_pages, "page_sum": len(aitems), "page_start": items.start_index(), "page_end": items.end_index()})
+        return render(request, "spatialquery/getresults.html", {"items": items, "page_num": paginator.num_pages, "page_sum": len(aitems), "page_start": items.start_index(), "page_end": items.end_index(), "input": text_input, "querymode": MODE_CHINESE[querymode]})
 
 def detail(request, space_id):
     """显示某条空间信息的详细信息
@@ -123,6 +128,7 @@ def detail(request, space_id):
     spatial_values: list[TextInfo|None] = [getattr(space, i) for i in spatial_keys]
     # 求取字符串
     spatial_string_dict = {k:s for k, s in zip(spatial_keys, [i.text if i else '' for i in spatial_values])}
+    spatial_string_dict |= {"semantic": RELATION_CHINESE[space.spatial_type] if space.spatial_type else '未知'} # 添加语义关系
     # 求取非空索引值
     index_not_none = [(i.start, i.end) for i in [k for k in spatial_values if k]]
     index_not_none = list(set(index_not_none)) # 去重

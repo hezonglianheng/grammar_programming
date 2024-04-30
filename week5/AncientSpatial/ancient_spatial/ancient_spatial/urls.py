@@ -25,6 +25,8 @@ urlpatterns = [
     path("spatialquery/", include("spatialquery.urls")),
     # 语料统计部分
     path("corpus_stat/", include("corpus_stat.urls")),
+    # 模式查询部分
+    path("patternquery/", include("patternquery.urls")),
     # 管理目录
     path("admin/", admin.site.urls),
 ]

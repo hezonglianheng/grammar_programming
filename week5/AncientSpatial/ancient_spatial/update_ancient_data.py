@@ -29,6 +29,13 @@ def update_ancient(mode: Literal['r', 'e']):
         else:
             return None
 
+    def make_pattern(space: dict) -> str:
+        """生成形式模式"""
+        space_keys = [TR1, TR2, LANDMARK, EVENT, PREPOSITION, LOCATION]
+        space_idxes:list[tuple[str, int, int]] = [(PATTERN_DICT[key], space[key][START_OFFSET], space[key][END_OFFSET]) for key in space_keys if space[key]]
+        space_idxes.sort(key=lambda x: (x[1], x[2]))
+        return PATTERN_JOIN.join([x[0] for x in space_idxes])
+
     # 读取json文件
     with open(ANCIENT_RES, encoding=UTF8) as jfile:
         data: list[dict] = json.load(jfile)
@@ -53,8 +60,10 @@ def update_ancient(mode: Literal['r', 'e']):
                 if n:
                     n.save() # 记得写入
             # 创建空间信息并保存
-            roles_dict = {x:y for x, y in zip(ROLES, spatial_roles)}
-            spatial_info = models.SpaceInfo(source=origin, **roles_dict, spatial_type=s[TYPE])
+            roles_dict = {x: y for x, y in zip(ROLES, spatial_roles)}
+            # 求出模式
+            pattern = make_pattern(s)
+            spatial_info = models.SpaceInfo(source=origin, **roles_dict, spatial_type=s[TYPE], pattern=pattern)
             spatial_info.save()
 
 def update_data(datatype: Literal['a', 'p'], mode: Literal['r', 'e']):

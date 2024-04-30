@@ -27,7 +27,7 @@
 1. 根据本仓库中的`requirements.txt`配置环境（Python3.12）.在命令行中运行命令`pip install -r requirements.txt`.
 2. 将使用[doccano](https://github.com/doccano/doccano)工具标注的数据放入`corpus\jsonline_corpus\admin.jsonl`.
 3. 启动`py extract_ancient.py`.
-4. 启动`py update_data.py -a -r`.
+4. 启动`py update_ancient_data.py -a -r`.
 5. 数据库更新完成.
 
 ### 服务器启动方法

@@ -1308,14 +1308,14 @@
                 },
                 "trajectory2": null,
                 "landmark": {
-                    "start_offset": 300,
-                    "end_offset": 301,
-                    "text": "如"
-                },
-                "event": {
                     "start_offset": 301,
                     "end_offset": 302,
                     "text": "周"
+                },
+                "event": {
+                    "start_offset": 300,
+                    "end_offset": 301,
+                    "text": "如"
                 },
                 "preposition": null,
                 "location": null,
@@ -6782,13 +6782,13 @@
                     "text": "异国"
                 },
                 "event": {
-                    "start_offset": 390,
-                    "end_offset": 391,
+                    "start_offset": 394,
+                    "end_offset": 395,
                     "text": "在"
                 },
                 "preposition": {
-                    "start_offset": 390,
-                    "end_offset": 391,
+                    "start_offset": 394,
+                    "end_offset": 395,
                     "text": "在"
                 },
                 "location": null,

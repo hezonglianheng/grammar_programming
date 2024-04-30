@@ -83,3 +83,13 @@ PATTERN2ROLE = {
     "lo": [LOCATION],
     "pr": [PREPOSITION],
 }
+# relation to Chinese
+RELATION_CHINESE = {
+    isPlace: "处所",
+    isPart: "部件处所",
+    isDeparture: "起点",
+    isDestination: "终点",
+    isOrientation: "朝向",
+    isDirection: "方向",
+    isPath: "路径",
+}

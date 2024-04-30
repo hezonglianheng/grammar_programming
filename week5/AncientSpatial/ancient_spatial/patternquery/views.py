@@ -8,7 +8,7 @@ from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage # 用�
 from functools import reduce
 # 引入单语查询模型
 from spatialquery.models import OriginalText, TextInfo, SpaceInfo
-from config import PATTERN_DICT, PATTERN_JOIN, PATTERN2ROLE, TR1
+from config import PATTERN_DICT, PATTERN_JOIN, PATTERN2ROLE, TR1, MODE_CHINESE
 from typing import Optional
 from spatialquery.views import SHOW_RANGE, PAGE_SIZE, semantic_key, semantic_name
 from homepage.views import QMODE
@@ -72,7 +72,7 @@ def queryres(request, pattern: str, semanticrange: str, querymode: QMODE):
     
     # 若有词语要求则根据词语信息筛选SpaceInfo，否则返回全部SpaceInfo
     if word_info:
-        spaceinfos = SpaceInfo.objects.filter(reduce(lambda x, y: x | y, word_info))
+        spaceinfos = SpaceInfo.objects.filter(reduce(lambda x, y: x & y, word_info))
     else:
         spaceinfos = SpaceInfo.objects.all()
     
@@ -135,4 +135,4 @@ def queryres(request, pattern: str, semanticrange: str, querymode: QMODE):
         # 如果页码超出范围，则返回最后一页
         items = paginator.page(paginator.num_pages)
     
-    return render(request, "patternquery/getresults.html", {"items":items, "page_sum": len(aitems), "page_start": items.start_index(), "page_end": items.end_index(), "page_num": paginator.num_pages, "pattern":pattern})
+    return render(request, "patternquery/getresults.html", {"items":items, "page_sum": len(aitems), "page_start": items.start_index(), "page_end": items.end_index(), "page_num": paginator.num_pages, "pattern":pattern, "querymode": MODE_CHINESE[querymode], "semanticrange": semantic_name[semanticrange]})

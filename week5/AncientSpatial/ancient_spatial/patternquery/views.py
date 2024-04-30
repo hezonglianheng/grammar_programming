@@ -135,4 +135,4 @@ def queryres(request, pattern: str, semanticrange: str, querymode: QMODE):
         # 如果页码超出范围，则返回最后一页
         items = paginator.page(paginator.num_pages)
     
-    return render(request, "patternquery/getresults.html", {"items":items, "page_sum": len(aitems), "page_start": items.start_index(), "page_end": items.end_index(), "page_num": paginator.num_pages, "pattern":pattern, "querymode": MODE_CHINESE[querymode], "semanticrange": semantic_name[semanticrange]})
+    return render(request, "patternquery/getresults.html", {"items":items, "page_sum": len(aitems), "page_start": items.start_index(), "page_end": items.end_index(), "page_num": paginator.num_pages, "pattern":pattern, "querymode": MODE_CHINESE[querymode]})

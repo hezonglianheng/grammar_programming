@@ -93,3 +93,7 @@ RELATION_CHINESE = {
     isDirection: "方向",
     isPath: "路径",
 }
+MODE_CHINESE = {
+    'accurate': '精确',
+    'fuzzy': '模糊',
+}

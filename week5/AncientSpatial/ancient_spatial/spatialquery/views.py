@@ -10,7 +10,7 @@ from functools import reduce
 
 from .models import OriginalText, TextInfo, SpaceInfo
 from homepage.views import QMODE
-from config import RELATION_CHINESE
+from config import RELATION_CHINESE, MODE_CHINESE
 
 # 查询范围与关键字对应的字典
 range_key = {
@@ -109,7 +109,7 @@ def res(request, text_input: str, queryrange: str, semanticrange: str, querymode
             # 如果页码超出范围，则返回最后一页
             items = paginator.page(paginator.num_pages)
         # 返回查询结果
-        return render(request, "spatialquery/getresults.html", {"items": items, "page_num": paginator.num_pages, "page_sum": len(aitems), "page_start": items.start_index(), "page_end": items.end_index()})
+        return render(request, "spatialquery/getresults.html", {"items": items, "page_num": paginator.num_pages, "page_sum": len(aitems), "page_start": items.start_index(), "page_end": items.end_index(), "input": text_input, "querymode": MODE_CHINESE[querymode]})
 
 def detail(request, space_id):
     """显示某条空间信息的详细信息

@@ -37349,7 +37349,7 @@
                     "text": "自"
                 },
                 "location": null,
-                "type": "isPlace"
+                "type": "isDeparture"
             },
             {
                 "trajectory1": {
@@ -54700,28 +54700,24 @@
             },
             {
                 "trajectory1": {
-                    "start_offset": 177,
-                    "end_offset": 178,
-                    "text": "门"
-                },
-                "trajectory2": {
                     "start_offset": 153,
                     "end_offset": 166,
                     "text": "扬、拒、泉、皋、伊、雒之戎"
                 },
-                "event": null,
+                "trajectory2": null,
+                "event": {
+                    "start_offset": 171,
+                    "end_offset": 172,
+                    "text": "入"
+                },
                 "landmark": {
                     "start_offset": 172,
                     "end_offset": 174,
                     "text": "王城"
                 },
                 "preposition": null,
-                "location": {
-                    "start_offset": 176,
-                    "end_offset": 177,
-                    "text": "东"
-                },
-                "type": "isPlace"
+                "location": null,
+                "type": "isDestination"
             }
         ]
     },
@@ -83281,11 +83277,7 @@
                     "end_offset": 119,
                     "text": "诸"
                 },
-                "trajectory2": {
-                    "start_offset": 118,
-                    "end_offset": 119,
-                    "text": "诸"
-                },
+                "trajectory2": null,
                 "event": {
                     "start_offset": 117,
                     "end_offset": 118,
@@ -83296,7 +83288,11 @@
                     "end_offset": 121,
                     "text": "臧氏"
                 },
-                "preposition": null,
+                "preposition": {
+                    "start_offset": 118,
+                    "end_offset": 119,
+                    "text": "诸"
+                },
                 "location": null,
                 "type": "isPlace"
             },
@@ -91830,7 +91826,7 @@
                     "text": "自"
                 },
                 "location": null,
-                "type": "isPlace"
+                "type": "isDeparture"
             },
             {
                 "trajectory1": {
@@ -92288,7 +92284,7 @@
                     "text": "自"
                 },
                 "location": null,
-                "type": "isPlace"
+                "type": "isDeparture"
             },
             {
                 "trajectory1": {

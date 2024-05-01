@@ -10,3 +10,4 @@ test
 *.xlsx
 *公
 jsonline_corpus
+*label_config.json

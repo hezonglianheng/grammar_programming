@@ -2,6 +2,10 @@ from django.db import models
 
 # Create your models here.
 # 之后可以考虑将语料原文竖着存储到数据库中
+# 另一个修改路径：
+# 在TextInfo中存储角色信息，查询角色信息时直接在TextInfo中查询
+# 在TextInfo中用外键关联SpaceInfo
+# 这样可以减少查询时间？
 
 class OriginalText(models.Model):
     """表示原文数据表的类"""

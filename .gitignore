@@ -11,3 +11,4 @@ test
 *公
 jsonline_corpus
 *label_config.json
+extract_parallel.py

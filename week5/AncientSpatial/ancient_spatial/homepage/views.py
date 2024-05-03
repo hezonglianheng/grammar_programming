@@ -31,3 +31,7 @@ def query(request):
             return redirect(reverse("patternquery:queryres", args=(text_input, semanticrange, querymode)))
         # return HttpResponse("text_input: %s, queryrange: %s, useApplication: %s" % (text_input, queryrange, useApplication))
     return HttpResponse("功能尚未开发，敬请期待……")
+
+def help(request):
+    """使用说明的页面"""
+    return render(request, "homepage/help.html")

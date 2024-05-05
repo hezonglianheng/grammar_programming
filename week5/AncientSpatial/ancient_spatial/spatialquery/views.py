@@ -76,7 +76,6 @@ def res(request, text_input: str, queryrange: str, semanticrange: str, querymode
     else:
         return render(request, "spatialquery/noresults.html")
 
-    print(len(results))
     if len(results) == 0:
         # 没有结果返回特定页面
         return render(request, "spatialquery/noresults.html")

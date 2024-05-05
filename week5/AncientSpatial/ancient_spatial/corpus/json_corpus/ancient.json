@@ -90977,7 +90977,7 @@
                 },
                 "preposition": null,
                 "location": null,
-                "type": "isPlace"
+                "type": "isDestination"
             },
             {
                 "trajectory1": {
@@ -92966,7 +92966,7 @@
                 },
                 "preposition": null,
                 "location": null,
-                "type": "isPlace"
+                "type": "isDestination"
             },
             {
                 "trajectory1": {

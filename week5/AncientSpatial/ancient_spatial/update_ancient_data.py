@@ -97,7 +97,7 @@ def update_ancient(mode: Literal['r', 'e']):
             # 方位表达情形统计
             # 语义统计
             # 查询SpatialTypeStat中是否有这种方位表达语义类型
-            spatial_type_stat = stat_models.SpatialTypeStat.objects.filter(spatial_type=s[TYPE]).first()
+            spatial_type_stat = stat_models.SpatialTypeStat.objects.filter(spatial_type=RELATION_CHINESE[s[TYPE]]).first()
 
             if spatial_type_stat:
                 # 如果存在，则将all_cases属性+1
@@ -105,7 +105,7 @@ def update_ancient(mode: Literal['r', 'e']):
                 spatial_type_stat.save()
             else:
                 # 如果不存在，则创建数据表行并将all_case属性设置为1
-                spatial_type_stat = stat_models.SpatialTypeStat(spatial_type=s[TYPE], all_cases=1)
+                spatial_type_stat = stat_models.SpatialTypeStat(spatial_type=RELATION_CHINESE[s[TYPE]], all_cases=1)
                 spatial_type_stat.save()
             # 介词统计
             if s[PREPOSITION]:

@@ -19,10 +19,10 @@
             </tr>
         </thead>
         <tbody>
-            {% for t, n in res_list %}
+            {% for r in results %}
             <tr>
-                <td>{{ t }}</td>
-                <td>{{ n }}</td>
+                <td>{{ r.spatial_type }}</td>
+                <td>{{ r.all_cases }}</td>
             </tr>
             {% endfor %}
         </tbody>

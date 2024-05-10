@@ -1,5 +1,6 @@
 venv/
 build/
+task2/base
 *.spec
 __pycache__
 testdata
@@ -12,3 +13,4 @@ test
 jsonline_corpus
 *label_config.json
 extract_parallel.py
+*_deprecated.*

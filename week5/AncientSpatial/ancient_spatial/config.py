@@ -93,6 +93,16 @@ RELATION_CHINESE = {
     isDirection: "方向",
     isPath: "路径",
 }
+# 与统计表格中的关系对应
+RELATION_EN = {
+    isPlace: "place",
+    isPart: "part",
+    isDeparture: "departure",
+    isDestination: "destination",
+    isOrientation: "orientation",
+    isDirection: "direction",
+    isPath: "path",
+}
 MODE_CHINESE = {
     'accurate': '精确',
     'fuzzy': '模糊',

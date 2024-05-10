@@ -109,12 +109,14 @@ def update_ancient(mode: Literal['r', 'e']):
                 spatial_type_stat.save()
             # 介词统计
             if s[PREPOSITION]:
-                update_stat(s[PREPOSITION], stat_models.PrepStat, s[TYPE])
+                # 如果存在介词，则更新介词统计，需要传入介词的文本内容
+                update_stat(s[PREPOSITION][TEXT], stat_models.PrepStat, s[TYPE])
             else:
                 update_stat(EMPTY_PREP, stat_models.PrepStat, s[TYPE])
             # 动词统计
             if s[EVENT]:
-                update_stat(s[EVENT], stat_models.VerbStat, s[TYPE])
+                # 如果存在动词，则更新动词统计，需要传入动词的文本内容
+                update_stat(s[EVENT][TEXT], stat_models.VerbStat, s[TYPE])
             else:
                 update_stat(EMPTY_VERB, stat_models.VerbStat, s[TYPE])
             # 形式模式统计

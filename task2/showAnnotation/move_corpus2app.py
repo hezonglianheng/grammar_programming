@@ -59,13 +59,13 @@ def add(rp_pair: str, file_path: str):
         else:
             # Random collision to prevent filename duplication
             for _ in range(RANDOM_COLLISION):
-                hash_value = hashlib.sha256(time.time().encode('utf-8')).hexdigest()
+                hash_value = hashlib.sha256(str(time.time()).encode('utf-8')).hexdigest()
                 dst = Path(config.STATIC_DIR) / (hash_value + '.html')
                 if not dst.exists():
                     shutil.copy(src, dst)
                     break
             raise ValueError("Random collision occurred, unable to generate a unique filename")
-        return dst
+        return dst.relative_to(config.STATIC_DIR)
 
     with open(file_path, 'r', encoding='utf8') as f:
         sentence_pairs = json.load(f)
@@ -108,10 +108,12 @@ def delete(rp_pair: str):
     for sentence_pair in sentence_pairs:
         context1_filepath = sentence_pair.context1_filepath
         context2_filepath = sentence_pair.context2_filepath
-        if os.path.exists(context1_filepath):
-            os.remove(context1_filepath)
-        if os.path.exists(context2_filepath):
-            os.remove(context2_filepath)
+        path1 = Path(config.STATIC_DIR) / context1_filepath
+        path2 = Path(config.STATIC_DIR) / context2_filepath
+        if os.path.exists(path1):
+            os.remove(path1)
+        if os.path.exists(path2):
+            os.remove(path2)
         
     sentence_pairs.delete()
     ReplacePair.objects.filter(rp_pair=rp_pair).delete()

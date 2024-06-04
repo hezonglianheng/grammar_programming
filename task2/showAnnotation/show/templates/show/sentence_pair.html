@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>替换对{{ rp_pair }}的句子结果</title>
+    </head>
+    <body>
+        <p>替换对{{rp_pair}}共有{{sum}}条语料，这是{{page_start}}至{{page_end}}条。<a href="{% url 'show:show_rp_pairs' %}">返回</a></p>
+        <! -- 结果展示表格 -->
+        <table>
+            <tr>
+                <th>句1</th>
+                <th>句2</th>
+                <th>是否异形同义</th>
+            {% load static %}
+            </tr>
+            {% for s in sentences %}
+            <tr>
+                <td><a href="{% static s.context1_filepath %}" target="_blank">{{ s.context1 }}</a></td>
+                <td><a href="{% static s.context2_filepath %}" target="_blank">{{ s.context2 }}</a></td>
+                <td>{{ s.judge }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <! -- 分页 -->
+        <div class="pagination" style="text-align: center;">
+            {% if sentences.has_previous %}
+                <a href="?page={{ sentences.previous_page_number }}">上一页</a>
+            {% else %}
+                <span>上一页</span>
+            {% endif %}
+            <span class="current">第{{page}}页/共{{page_sum}}页</span>
+            {% if sentences.has_next %}
+                <a href="?page={{ sentences.next_page_number }}">下一页</a>
+            {% else %}
+                <span>下一页</span>
+            {% endif %}
+        </div>
+</html>

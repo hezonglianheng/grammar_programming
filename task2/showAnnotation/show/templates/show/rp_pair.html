@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>空间形义关系语料查阅</title>
+</head>
+<body>
+    <p>请选择需要查阅的语料替换对: </p>
+    {% for pair in replace_pairs %}
+        <a href="{% url 'show:show_sentences' pair.rp_pair %}">{{ pair.rp_pair }}</a>
+    {% endfor %}
+</body>
+</html>

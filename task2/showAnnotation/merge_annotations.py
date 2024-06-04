@@ -50,4 +50,4 @@ with jsonlines.open(config.ANNOTATE_RES_PATH) as reader:
 
 # 写入合并结果
 with open(config.DEP_ANN_RES_PATH, 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
+    json.dump(data, f, ensure_ascii=False, indent=4)

@@ -36,6 +36,7 @@ def merge_ann2dep(data_item: dict):
     new_html_file = Path(config.PICTURE_WITH_SPATIAL) / Path(data_item[config.HTML]).name
     with open(new_html_file, 'w', encoding=UTF8) as f:
         f.write(str(soup))
+    return str(new_html_file) # 返回合并结果文件路径
 
 # 读取合并结果json文件
 with open(config.DEP_ANN_RES_PATH, 'r', encoding=UTF8) as f:
@@ -44,7 +45,18 @@ with open(config.DEP_ANN_RES_PATH, 'r', encoding=UTF8) as f:
 # 全部context1和context2分别形成列表
 context1s = [i[config.CONTEXT1] for i in data]
 context2s = [i[config.CONTEXT2] for i in data]
+context1s_new_paths = []
+context2s_new_paths = []
 for i in context1s:
-    merge_ann2dep(i)
+    context1s_new_paths.append(merge_ann2dep(i))
 for i in context2s:
-    merge_ann2dep(i)
+    context2s_new_paths.append(merge_ann2dep(i))
+
+# 修改数据的html路径
+for i, item in enumerate(data):
+    item[config.CONTEXT1][config.HTML] = context1s_new_paths[i]
+    item[config.CONTEXT2][config.HTML] = context2s_new_paths[i]
+
+# 存回原文件中
+with open(config.DEP_ANN_RES_PATH, 'w', encoding=UTF8) as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)

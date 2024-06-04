@@ -32,6 +32,14 @@ def merge_ann2dep(data_item: dict):
             new_tag.string = f'{s[config.LABEL]}: {s[config.WORD]}' # 生成新的标签内容
             tokens[seg].append(new_tag)
 
+    # 修改: 在head中添加meta标签，以支持中文显示
+    head = soup.find('head')
+    meta = soup.new_tag('meta')
+    meta['charset'] = 'utf-8'
+    head.append(meta)
+    # 修改: 将head中的title标签内容改为“句法空间标注结果”
+    title = soup.find('title')
+    title.string = '句法空间标注结果'
     # 保存合并结果
     new_html_file = Path(config.PICTURE_WITH_SPATIAL) / Path(data_item[config.HTML]).name
     with open(new_html_file, 'w', encoding=UTF8) as f:

@@ -177,6 +177,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/1.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -370,6 +371,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/2.html",
       "spatial": [
         {
           "label": "landmark",
@@ -448,6 +450,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/3.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -529,6 +532,7 @@
           "relation": "ROOT"
         }
       ],
+      "html": "pictures/without_spatial/4.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -699,6 +703,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/5.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -857,6 +862,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/6.html",
       "spatial": [
         {
           "label": "landmark",
@@ -1038,6 +1044,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/7.html",
       "spatial": [
         {
           "label": "landmark",
@@ -1217,6 +1224,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/8.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -1394,6 +1402,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/9.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -1566,6 +1575,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/10.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -1840,6 +1850,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/11.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -2110,6 +2121,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/12.html",
       "spatial": [
         {
           "label": "landmark",
@@ -2342,6 +2354,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/13.html",
       "spatial": [
         {
           "label": "landmark",
@@ -2564,6 +2577,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/14.html",
       "spatial": [
         {
           "label": "landmark",
@@ -2713,6 +2727,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/15.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -2864,6 +2879,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/16.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -3096,6 +3112,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/17.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -3323,6 +3340,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/18.html",
       "spatial": [
         {
           "label": "event",
@@ -3498,6 +3516,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/19.html",
       "spatial": [
         {
           "label": "landmark",
@@ -3670,6 +3689,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/20.html",
       "spatial": [
         {
           "label": "landmark",
@@ -3874,6 +3894,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/21.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -4072,6 +4093,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/22.html",
       "spatial": [
         {
           "label": "landmark",
@@ -4365,6 +4387,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/23.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -4657,6 +4680,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/24.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -4792,6 +4816,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/25.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -4920,6 +4945,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/26.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -5192,6 +5218,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/27.html",
       "spatial": [
         {
           "label": "landmark",
@@ -5461,6 +5488,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/28.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -5783,6 +5811,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/29.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -6102,6 +6131,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/30.html",
       "spatial": [
         {
           "label": "event",
@@ -6334,6 +6364,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/31.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -6562,6 +6593,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/32.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -6731,6 +6763,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/33.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -6896,6 +6929,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/34.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -7198,6 +7232,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/35.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -7489,6 +7524,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/36.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -7616,6 +7652,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/37.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -7746,6 +7783,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/38.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -7992,6 +8030,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/39.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -8227,6 +8266,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/40.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -8361,6 +8401,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/41.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -8498,6 +8539,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/42.html",
       "spatial": [
         {
           "label": "landmark",
@@ -8647,6 +8689,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/43.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -8784,6 +8827,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/44.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -8939,6 +8983,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/45.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -9097,6 +9142,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/46.html",
       "spatial": [
         {
           "label": "landmark",
@@ -9336,6 +9382,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/47.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -9564,6 +9611,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/48.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -9775,6 +9823,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/49.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -9989,6 +10038,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/50.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -10200,6 +10250,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/51.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -10407,6 +10458,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/52.html",
       "spatial": [
         {
           "label": "landmark",
@@ -10611,6 +10663,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/53.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -10811,6 +10864,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/54.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -11050,6 +11104,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/55.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -11285,6 +11340,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/56.html",
       "spatial": [
         {
           "label": "landmark",
@@ -11552,6 +11608,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/57.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -11815,6 +11872,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/58.html",
       "spatial": [
         {
           "label": "event",
@@ -12005,6 +12063,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/59.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -12184,6 +12243,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/60.html",
       "spatial": [
         {
           "label": "landmark",
@@ -12353,6 +12413,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/61.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -12525,6 +12586,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/62.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -12701,6 +12763,7 @@
           "relation": "ROOT"
         }
       ],
+      "html": "pictures/without_spatial/63.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -12873,6 +12936,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/64.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -13056,6 +13120,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/65.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -13228,6 +13293,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/66.html",
       "spatial": [
         {
           "label": "landmark",
@@ -13418,6 +13484,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/67.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -13604,6 +13671,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/68.html",
       "spatial": [
         {
           "label": "landmark",
@@ -13794,6 +13862,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/69.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -13987,6 +14056,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/70.html",
       "spatial": [
         {
           "label": "landmark",
@@ -14247,6 +14317,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/71.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -14503,6 +14574,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/72.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -14840,6 +14912,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/73.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -15166,6 +15239,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/74.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -15370,6 +15444,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/75.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -15570,6 +15645,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/76.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -15795,6 +15871,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/77.html",
       "spatial": [
         {
           "label": "landmark",
@@ -16016,6 +16093,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/78.html",
       "spatial": [
         {
           "label": "landmark",
@@ -16281,6 +16359,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/79.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -16544,6 +16623,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/80.html",
       "spatial": [
         {
           "label": "landmark",
@@ -16769,6 +16849,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/81.html",
       "spatial": [
         {
           "label": "landmark",
@@ -16990,6 +17071,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/82.html",
       "spatial": [
         {
           "label": "landmark",
@@ -17306,6 +17388,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/83.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -17618,6 +17701,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/84.html",
       "spatial": [
         {
           "label": "landmark",
@@ -17899,6 +17983,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/85.html",
       "spatial": [
         {
           "label": "landmark",
@@ -18176,6 +18261,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/86.html",
       "spatial": [
         {
           "label": "landmark",
@@ -18338,6 +18424,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/87.html",
       "spatial": [
         {
           "label": "landmark",
@@ -18356,7 +18443,7 @@
       ]
     },
     "context2": {
-      "sentence": "王稼祥打开第二个箱子，里边还是书，不过下边有国民党法币501元。",
+      "sentence": "王稼祥打开第二个箱子，里边还是书，不过下边有国民党法币500元。",
       "seg": [
         "王稼祥",
         "打开",
@@ -18373,7 +18460,7 @@
         "有",
         "国民党",
         "法币",
-        "501",
+        "500",
         "元",
         "。"
       ],
@@ -18489,6 +18576,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/88.html",
       "spatial": [
         {
           "label": "landmark",
@@ -18609,6 +18697,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/89.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -18732,6 +18821,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/90.html",
       "spatial": [
         {
           "label": "landmark",
@@ -18943,6 +19033,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/91.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -19150,6 +19241,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/92.html",
       "spatial": [
         {
           "label": "landmark",
@@ -19277,6 +19369,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/93.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -19393,6 +19486,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/94.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -19555,6 +19649,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/95.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -19720,6 +19815,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/96.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -19882,6 +19978,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/97.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -20040,6 +20137,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/98.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -20237,6 +20335,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/99.html",
       "spatial": [
         {
           "label": "trajectory",
@@ -20431,6 +20530,7 @@
           "relation": "punct"
         }
       ],
+      "html": "pictures/without_spatial/100.html",
       "spatial": [
         {
           "label": "trajectory",

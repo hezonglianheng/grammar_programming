@@ -7,6 +7,8 @@ import jsonlines # write jsonlines.
 import pandas as pd # read excel.
 import spacy # dependency parsing.
 from spacy.tokens import Doc # add the custom words to the vocabulary.
+from spacy import displacy # visualize the dependency parsing result.
+import textwrap # wrap the text.
 import config
 import custom_words
 
@@ -20,14 +22,23 @@ for word, attrs in custom_words.items():
     doc = Doc(nlp.vocab, words=[word])
     doc[0].tag_ = attrs[config.POS]
 
+pic_index: int = 1
+
 def dependency_parsing(sentence: str) -> dict[str, list[str]| list[dict] | str]:
-    """对句子执行依存句法分析
+    """对句子执行依存句法分析，保存依存句法分析html文件，并返回结果
     Args:
         sentence (str): 句子
     Returns:
         dict: 依存句法分析结果"""
     # do the word segmentation and dependency parsing.
     doc = nlp(sentence)
+    # 绘制依存句法分析结果
+    html_picture = displacy.render(doc, style="dep", options={'collapse_punct': False}, page=True)
+    global pic_index
+    # 保存依存句法分析结果到html文件
+    with open(config.PICTURE_WITHOUT_SPATIAL + fr"/{pic_index}.html", 'w', encoding='utf-8') as f:
+        f.write(html_picture)
+        pic_index += 1
     token_index = {token: i for i, token in enumerate(doc)}
     # 整理分词、词性标注和依存句法分析结果
     result: dict[str, list[str]| list[dict] | str] = {
@@ -38,7 +49,9 @@ def dependency_parsing(sentence: str) -> dict[str, list[str]| list[dict] | str]:
         # 词性标注结果
         config.POS: [token.pos_ for token in doc],
         # 依存句法分析结果
-        config.DEP: [{config.HEAD:token_index[token.head], config.WORD:i, config.RELATION:token.dep_} for i, token in enumerate(doc)]
+        config.DEP: [{config.HEAD:token_index[token.head], config.WORD:i, config.RELATION:token.dep_} for i, token in enumerate(doc)], 
+        # html文件路径
+        config.HTML: config.PICTURE_WITHOUT_SPATIAL + fr"/{pic_index-1}.html", 
     }
     return result
 

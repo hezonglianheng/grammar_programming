@@ -1,12 +1,17 @@
 # encoding: utf8
 # config for scripts in the task2.
 
+# 文件夹路径
+PICTURE_WITHOUT_SPATIAL = r'pictures/without_spatial' # 依存句法分析可视化结果
+PICTURE_WITH_SPATIAL = r'pictures/with_spatial' # 合并空间信息标注后的可视化结果
+STATIC_DIR = r'static' # 静态目录路径
+
 # 文件路径
-ORIGIN_DATA_PATH = r'spatial_synonym_data.xlsx' # 原始数据
-DEP_RESULT_PATH = r'dep_result.json' # 依存句法分析结果
-ANNOTATE_NEED_PATH = r'annotate_need.jsonl' # 需要做空间信息标注的数据
-ANNOTATE_RES_PATH = r'annotation_result.jsonl' # 空间信息标注结果
-DEP_ANN_RES_PATH = r'dep_ann_result.json' # 合并依存句法分析结果和空间信息标注结果
+ORIGIN_DATA_PATH = r'corpus/spatial_synonym_data.xlsx' # 原始数据
+DEP_RESULT_PATH = r'corpus/dep_result.json' # 依存句法分析结果
+ANNOTATE_NEED_PATH = r'corpus/annotate_need.jsonl' # 需要做空间信息标注的数据
+ANNOTATE_RES_PATH = r'corpus/annotation_result.jsonl' # 空间信息标注结果
+DEP_ANN_RES_PATH = r'corpus/dep_ann_result.json' # 合并依存句法分析结果和空间信息标注结果
 
 ZH_MODEL = 'zh_core_web_md' # 中文模型名称
 
@@ -22,6 +27,7 @@ SENTENCE = 'sentence' # 句子
 SEG = 'seg' # 分词结果
 POS = 'pos' # 词性标注结果
 DEP = 'dep' # 依存句法分析结果
+HTML = 'html' # html文件路径
 # 依存句法分析结果中的字段名称
 HEAD = 'head' # 依存句法分析结果中的头词
 RELATION = 'relation' # 依存句法分析结果中的关系

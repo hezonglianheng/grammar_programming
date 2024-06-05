@@ -19,7 +19,7 @@ django.setup()
 from show.models import SentencePair, ReplacePair
 
 # 程序功能标识
-ProgramFunc = Literal['add', 'update', 'delete', 'help']
+ProgramFunc = Literal['add', 'update', 'delete', 'help', 'show']
 # 随机碰撞循环次数
 RANDOM_COLLISION = 100
 
@@ -158,8 +158,19 @@ def help(func_name: ProgramFunc = None):
         使用方法: python move_corpus2app.py delete [rp_pair]
             rp_pair: 需要操作的替换对.
             """)
+    elif func_name == 'show':
+        print("""
+        使用方法: python move_corpus2app.py show
+            显示所有已有的替换对.
+            """)
     else:
         raise ValueError(f"没有操作'{func_name}'")
+
+def show():
+    replace_pairs = ReplacePair.objects.all()
+    print('目前已有的替换对:')
+    for replace_pair in replace_pairs:
+        print(replace_pair.rp_pair)
 
 if __name__ == '__main__':
     # 读取命令行参数
@@ -180,5 +191,7 @@ if __name__ == '__main__':
         rp_pair: str = sys.argv[2] # 需要操作的替换对
         file_path: str = sys.argv[3]
         add()
+    elif program_func == 'show':
+        show()
     else:
         raise ValueError(f"没有操作'{program_func}'")

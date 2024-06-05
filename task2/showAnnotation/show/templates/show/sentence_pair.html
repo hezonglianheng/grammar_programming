@@ -8,20 +8,23 @@
         <! -- 结果展示表格 -->
         <table>
             <tr>
-                <th>句1</th>
-                <th>句2</th>
-                <th>是否异形同义</th>
+                <th style="border: 1px solid black;">句1</th>
+                <th style="border: 1px solid black;">句1图式</th>
+                <th style="border: 1px solid black;">句2</th>
+                <th style="border: 1px solid black;">句2图式</th>
+                <th style="border: 1px solid black;">是否异形同义</th>
             {% load static %}
             </tr>
             {% for s in sentences %}
             <tr>
-                <td><a href="{% static s.context1_filepath %}" target="_blank">{{ s.context1 }}</a></td>
-                <td><a href="{% static s.context2_filepath %}" target="_blank">{{ s.context2 }}</a></td>
-                <td>{{ s.judge }}</td>
+                <td style="border: 1px solid black;"><a href="{% static s.context1_filepath %}" target="_blank">{{ s.context1 }}</a></td>
+                <td style="border: 1px solid black;">{{ s.context1_schema }}</td>
+                <td style="border: 1px solid black;"><a href="{% static s.context2_filepath %}" target="_blank">{{ s.context2 }}</a></td>
+                <td style="border: 1px solid black;">{{ s.context2_schema }}</td>
+                <td style="border: 1px solid black;">{{ s.judge }}</td>
             </tr>
             {% endfor %}
         </table>
-        <! -- 分页 -->
         <div class="pagination" style="text-align: center;">
             {% if sentences.has_previous %}
                 <a href="?page={{ sentences.previous_page_number }}">上一页</a>

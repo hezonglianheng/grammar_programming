@@ -9,14 +9,18 @@
         <table>
             <tr>
                 <th>句1</th>
+                <th>句1图式</th>
                 <th>句2</th>
+                <th>句2图式</th>
                 <th>是否异形同义</th>
             {% load static %}
             </tr>
             {% for s in sentences %}
             <tr>
                 <td><a href="{% static s.context1_filepath %}" target="_blank">{{ s.context1 }}</a></td>
+                <td>{{ s.context1_schema }}</td>
                 <td><a href="{% static s.context2_filepath %}" target="_blank">{{ s.context2 }}</a></td>
+                <td>{{ s.context2_schema }}</td>
                 <td>{{ s.judge }}</td>
             </tr>
             {% endfor %}

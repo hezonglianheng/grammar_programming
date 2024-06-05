@@ -20,6 +20,8 @@ QID = 'qid'
 CONTEXT1 = 'context1'
 CONTEXT2 = 'context2'
 JUDGE = 'judge'
+SCHEMA1 = 'schema1' # 添加两个句子的图式
+SCHEMA2 = 'schema2' # 添加两个句子的图式
 
 # json文件字段名称
 # 单句字段名称
@@ -38,6 +40,7 @@ TRAJECTORY = 'trajectory' # 射体
 LANDMARK = 'landmark' # 地标
 EVENT = 'event' # 事件
 CONTAIN_SEG = 'contain_seg' # 包含的分词结果项目
+SCHEMA = 'schema' # 图式
 
 # jsonlines文件字段名称
 PAIR = 'pair' # 句对中的编号

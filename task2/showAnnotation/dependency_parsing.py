@@ -63,12 +63,12 @@ context1_res = map(dependency_parsing, df[config.CONTEXT1])
 # do the dependency parsing for the context2.
 context2_res = map(dependency_parsing, df[config.CONTEXT2])
 # merge the result.
-for i, (res1, res2, j) in enumerate(zip(context1_res, context2_res, df[config.JUDGE])):
+for i, (res1, res2, j, s1, s2) in enumerate(zip(context1_res, context2_res, df[config.JUDGE], df[config.SCHEMA1], df[config.SCHEMA2])):
     # 结果中添加qid和判断结果后添加到result中
-    result.append({config.QID:i, config.CONTEXT1: res1, config.CONTEXT2: res2, config.JUDGE: j})
+    result.append({config.QID:i, config.CONTEXT1: res1 | {config.SCHEMA: s1}, config.CONTEXT2: res2 | {config.SCHEMA: s2}, config.JUDGE: j,})
     # 将结果转换为jsonlines格式
-    jl_res.append({config.QID:i, config.PAIR:1, config.TEXT:res1[config.SENTENCE], config.SEG:res1[config.SEG], config.POS:res1[config.POS], config.LABEL:[]})
-    jl_res.append({config.QID:i, config.PAIR:2, config.TEXT:res2[config.SENTENCE], config.SEG:res2[config.SEG], config.POS:res2[config.POS], config.LABEL:[]})
+    jl_res.append({config.QID:i, config.PAIR:1, config.TEXT:res1[config.SENTENCE], config.SEG:res1[config.SEG], config.POS:res1[config.POS], config.LABEL:[], config.SCHEMA:s1})
+    jl_res.append({config.QID:i, config.PAIR:2, config.TEXT:res2[config.SENTENCE], config.SEG:res2[config.SEG], config.POS:res2[config.POS], config.LABEL:[], config.SCHEMA:s2})
 
 # save the result to the json file.
 with open(config.DEP_RESULT_PATH, 'w', encoding='utf-8') as f:

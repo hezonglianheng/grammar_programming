@@ -178,6 +178,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\1.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -372,6 +373,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\2.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "landmark",
@@ -451,6 +453,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\3.html",
+            "schema": "上14",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -533,6 +536,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\4.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -704,6 +708,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\5.html",
+            "schema": "上23",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -863,6 +868,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\6.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "landmark",
@@ -1045,6 +1051,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\7.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "landmark",
@@ -1225,6 +1232,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\8.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -1403,6 +1411,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\9.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -1576,6 +1585,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\10.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -1851,6 +1861,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\11.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -2122,6 +2133,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\12.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "landmark",
@@ -2355,6 +2367,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\13.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "landmark",
@@ -2578,6 +2591,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\14.html",
+            "schema": "下3",
             "spatial": [
                 {
                     "label": "landmark",
@@ -2728,6 +2742,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\15.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -2880,6 +2895,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\16.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -3113,6 +3129,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\17.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -3341,6 +3358,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\18.html",
+            "schema": "下3",
             "spatial": [
                 {
                     "label": "event",
@@ -3517,6 +3535,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\19.html",
+            "schema": "上21；上23；上11",
             "spatial": [
                 {
                     "label": "landmark",
@@ -3690,6 +3709,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\20.html",
+            "schema": "下3",
             "spatial": [
                 {
                     "label": "landmark",
@@ -3895,6 +3915,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\21.html",
+            "schema": "上15",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -4094,6 +4115,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\22.html",
+            "schema": "下4",
             "spatial": [
                 {
                     "label": "landmark",
@@ -4388,6 +4410,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\23.html",
+            "schema": "上23",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -4681,6 +4704,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\24.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -4817,6 +4841,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\25.html",
+            "schema": "上12",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -4946,6 +4971,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\26.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -5219,6 +5245,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\27.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "landmark",
@@ -5489,6 +5516,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\28.html",
+            "schema": "下3",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -5812,6 +5840,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\29.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -6132,6 +6161,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\30.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "event",
@@ -6365,6 +6395,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\31.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -6594,6 +6625,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\32.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -6764,6 +6796,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\33.html",
+            "schema": "上21；上23；上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -6930,6 +6963,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\34.html",
+            "schema": "下3",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -7233,6 +7267,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\35.html",
+            "schema": "上12",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -7525,6 +7560,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\36.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -7653,6 +7689,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\37.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -7784,6 +7821,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\38.html",
+            "schema": "下x",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -8031,6 +8069,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\39.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -8267,6 +8306,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\40.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -8402,6 +8442,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\41.html",
+            "schema": "上22",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -8540,6 +8581,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\42.html",
+            "schema": "下2",
             "spatial": [
                 {
                     "label": "landmark",
@@ -8690,6 +8732,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\43.html",
+            "schema": "上12",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -8828,6 +8871,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\44.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -8984,6 +9028,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\45.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -9143,6 +9188,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\46.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "landmark",
@@ -9383,6 +9429,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\47.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -9612,6 +9659,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\48.html",
+            "schema": "下3",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -9824,6 +9872,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\49.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -10039,6 +10088,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\50.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -10251,6 +10301,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\51.html",
+            "schema": "上14",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -10459,6 +10510,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\52.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "landmark",
@@ -10664,6 +10716,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\53.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -10865,6 +10918,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\54.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -11105,6 +11159,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\55.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -11341,6 +11396,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\56.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "landmark",
@@ -11370,270 +11426,6 @@
     {
         "qid": 28,
         "context1": {
-            "sentence": "工务段需要争取在业余时间完成一千个洋镐把，但缺乏木料，工人们便研究将堆在城墙下边的干死树干拿过来作为原料。",
-            "seg": [
-                "工务",
-                "段",
-                "需要",
-                "争取",
-                "在",
-                "业余",
-                "时间",
-                "完成",
-                "一千",
-                "个",
-                "洋镐",
-                "把",
-                "，",
-                "但",
-                "缺乏",
-                "木料",
-                "，",
-                "工人们",
-                "便",
-                "研究",
-                "将",
-                "堆",
-                "在",
-                "城墙",
-                "下边",
-                "的",
-                "干死",
-                "树干",
-                "拿",
-                "过来",
-                "作为",
-                "原料",
-                "。"
-            ],
-            "pos": [
-                "NOUN",
-                "NOUN",
-                "VERB",
-                "VERB",
-                "ADP",
-                "ADJ",
-                "NOUN",
-                "VERB",
-                "NUM",
-                "NUM",
-                "NOUN",
-                "X",
-                "PUNCT",
-                "ADV",
-                "VERB",
-                "NOUN",
-                "PUNCT",
-                "NOUN",
-                "ADV",
-                "VERB",
-                "ADV",
-                "VERB",
-                "ADP",
-                "NOUN",
-                "NOUN",
-                "PART",
-                "ADJ",
-                "NOUN",
-                "VERB",
-                "VERB",
-                "VERB",
-                "NOUN",
-                "PUNCT"
-            ],
-            "dep": [
-                {
-                    "head": 1,
-                    "word": 0,
-                    "relation": "compound:nn"
-                },
-                {
-                    "head": 3,
-                    "word": 1,
-                    "relation": "nsubj"
-                },
-                {
-                    "head": 3,
-                    "word": 2,
-                    "relation": "xcomp"
-                },
-                {
-                    "head": 3,
-                    "word": 3,
-                    "relation": "ROOT"
-                },
-                {
-                    "head": 6,
-                    "word": 4,
-                    "relation": "case"
-                },
-                {
-                    "head": 6,
-                    "word": 5,
-                    "relation": "amod"
-                },
-                {
-                    "head": 7,
-                    "word": 6,
-                    "relation": "nmod:prep"
-                },
-                {
-                    "head": 3,
-                    "word": 7,
-                    "relation": "ccomp"
-                },
-                {
-                    "head": 10,
-                    "word": 8,
-                    "relation": "nummod"
-                },
-                {
-                    "head": 8,
-                    "word": 9,
-                    "relation": "mark:clf"
-                },
-                {
-                    "head": 7,
-                    "word": 10,
-                    "relation": "dobj"
-                },
-                {
-                    "head": 14,
-                    "word": 11,
-                    "relation": "aux:ba"
-                },
-                {
-                    "head": 14,
-                    "word": 12,
-                    "relation": "punct"
-                },
-                {
-                    "head": 14,
-                    "word": 13,
-                    "relation": "advmod"
-                },
-                {
-                    "head": 3,
-                    "word": 14,
-                    "relation": "conj"
-                },
-                {
-                    "head": 14,
-                    "word": 15,
-                    "relation": "dobj"
-                },
-                {
-                    "head": 3,
-                    "word": 16,
-                    "relation": "punct"
-                },
-                {
-                    "head": 19,
-                    "word": 17,
-                    "relation": "nsubj"
-                },
-                {
-                    "head": 19,
-                    "word": 18,
-                    "relation": "advmod"
-                },
-                {
-                    "head": 3,
-                    "word": 19,
-                    "relation": "conj"
-                },
-                {
-                    "head": 21,
-                    "word": 20,
-                    "relation": "advmod"
-                },
-                {
-                    "head": 27,
-                    "word": 21,
-                    "relation": "acl"
-                },
-                {
-                    "head": 24,
-                    "word": 22,
-                    "relation": "case"
-                },
-                {
-                    "head": 24,
-                    "word": 23,
-                    "relation": "compound:nn"
-                },
-                {
-                    "head": 21,
-                    "word": 24,
-                    "relation": "nmod:prep"
-                },
-                {
-                    "head": 21,
-                    "word": 25,
-                    "relation": "mark"
-                },
-                {
-                    "head": 27,
-                    "word": 26,
-                    "relation": "compound:nn"
-                },
-                {
-                    "head": 19,
-                    "word": 27,
-                    "relation": "dobj"
-                },
-                {
-                    "head": 19,
-                    "word": 28,
-                    "relation": "conj"
-                },
-                {
-                    "head": 28,
-                    "word": 29,
-                    "relation": "advmod:rcomp"
-                },
-                {
-                    "head": 28,
-                    "word": 30,
-                    "relation": "conj"
-                },
-                {
-                    "head": 30,
-                    "word": 31,
-                    "relation": "dobj"
-                },
-                {
-                    "head": 3,
-                    "word": 32,
-                    "relation": "punct"
-                }
-            ],
-            "html": "pictures\\with_spatial\\57.html",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "树干",
-                    "contain_seg": [
-                        27
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "城墙",
-                    "contain_seg": [
-                        23
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "堆",
-                    "contain_seg": [
-                        21
-                    ]
-                }
-            ]
-        },
-        "context2": {
             "sentence": "工务段需要争取在业余时间完成一千个洋镐把，但缺乏木料，工人们便研究将堆在城墙上边的干死树干拿过来作为原料。",
             "seg": [
                 "工务",
@@ -11872,7 +11664,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\58.html",
+            "html": "pictures\\with_spatial\\57.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "event",
@@ -11893,6 +11686,271 @@
                     "word": "树干",
                     "contain_seg": [
                         27
+                    ]
+                }
+            ]
+        },
+        "context2": {
+            "sentence": "工务段需要争取在业余时间完成一千个洋镐把，但缺乏木料，工人们便研究将堆在城墙下边的干死树干拿过来作为原料。",
+            "seg": [
+                "工务",
+                "段",
+                "需要",
+                "争取",
+                "在",
+                "业余",
+                "时间",
+                "完成",
+                "一千",
+                "个",
+                "洋镐",
+                "把",
+                "，",
+                "但",
+                "缺乏",
+                "木料",
+                "，",
+                "工人们",
+                "便",
+                "研究",
+                "将",
+                "堆",
+                "在",
+                "城墙",
+                "下边",
+                "的",
+                "干死",
+                "树干",
+                "拿",
+                "过来",
+                "作为",
+                "原料",
+                "。"
+            ],
+            "pos": [
+                "NOUN",
+                "NOUN",
+                "VERB",
+                "VERB",
+                "ADP",
+                "ADJ",
+                "NOUN",
+                "VERB",
+                "NUM",
+                "NUM",
+                "NOUN",
+                "X",
+                "PUNCT",
+                "ADV",
+                "VERB",
+                "NOUN",
+                "PUNCT",
+                "NOUN",
+                "ADV",
+                "VERB",
+                "ADV",
+                "VERB",
+                "ADP",
+                "NOUN",
+                "NOUN",
+                "PART",
+                "ADJ",
+                "NOUN",
+                "VERB",
+                "VERB",
+                "VERB",
+                "NOUN",
+                "PUNCT"
+            ],
+            "dep": [
+                {
+                    "head": 1,
+                    "word": 0,
+                    "relation": "compound:nn"
+                },
+                {
+                    "head": 3,
+                    "word": 1,
+                    "relation": "nsubj"
+                },
+                {
+                    "head": 3,
+                    "word": 2,
+                    "relation": "xcomp"
+                },
+                {
+                    "head": 3,
+                    "word": 3,
+                    "relation": "ROOT"
+                },
+                {
+                    "head": 6,
+                    "word": 4,
+                    "relation": "case"
+                },
+                {
+                    "head": 6,
+                    "word": 5,
+                    "relation": "amod"
+                },
+                {
+                    "head": 7,
+                    "word": 6,
+                    "relation": "nmod:prep"
+                },
+                {
+                    "head": 3,
+                    "word": 7,
+                    "relation": "ccomp"
+                },
+                {
+                    "head": 10,
+                    "word": 8,
+                    "relation": "nummod"
+                },
+                {
+                    "head": 8,
+                    "word": 9,
+                    "relation": "mark:clf"
+                },
+                {
+                    "head": 7,
+                    "word": 10,
+                    "relation": "dobj"
+                },
+                {
+                    "head": 14,
+                    "word": 11,
+                    "relation": "aux:ba"
+                },
+                {
+                    "head": 14,
+                    "word": 12,
+                    "relation": "punct"
+                },
+                {
+                    "head": 14,
+                    "word": 13,
+                    "relation": "advmod"
+                },
+                {
+                    "head": 3,
+                    "word": 14,
+                    "relation": "conj"
+                },
+                {
+                    "head": 14,
+                    "word": 15,
+                    "relation": "dobj"
+                },
+                {
+                    "head": 3,
+                    "word": 16,
+                    "relation": "punct"
+                },
+                {
+                    "head": 19,
+                    "word": 17,
+                    "relation": "nsubj"
+                },
+                {
+                    "head": 19,
+                    "word": 18,
+                    "relation": "advmod"
+                },
+                {
+                    "head": 3,
+                    "word": 19,
+                    "relation": "conj"
+                },
+                {
+                    "head": 21,
+                    "word": 20,
+                    "relation": "advmod"
+                },
+                {
+                    "head": 27,
+                    "word": 21,
+                    "relation": "acl"
+                },
+                {
+                    "head": 24,
+                    "word": 22,
+                    "relation": "case"
+                },
+                {
+                    "head": 24,
+                    "word": 23,
+                    "relation": "compound:nn"
+                },
+                {
+                    "head": 21,
+                    "word": 24,
+                    "relation": "nmod:prep"
+                },
+                {
+                    "head": 21,
+                    "word": 25,
+                    "relation": "mark"
+                },
+                {
+                    "head": 27,
+                    "word": 26,
+                    "relation": "compound:nn"
+                },
+                {
+                    "head": 19,
+                    "word": 27,
+                    "relation": "dobj"
+                },
+                {
+                    "head": 19,
+                    "word": 28,
+                    "relation": "conj"
+                },
+                {
+                    "head": 28,
+                    "word": 29,
+                    "relation": "advmod:rcomp"
+                },
+                {
+                    "head": 28,
+                    "word": 30,
+                    "relation": "conj"
+                },
+                {
+                    "head": 30,
+                    "word": 31,
+                    "relation": "dobj"
+                },
+                {
+                    "head": 3,
+                    "word": 32,
+                    "relation": "punct"
+                }
+            ],
+            "html": "pictures\\with_spatial\\58.html",
+            "schema": "下5",
+            "spatial": [
+                {
+                    "label": "trajectory",
+                    "word": "树干",
+                    "contain_seg": [
+                        27
+                    ]
+                },
+                {
+                    "label": "landmark",
+                    "word": "城墙",
+                    "contain_seg": [
+                        23
+                    ]
+                },
+                {
+                    "label": "event",
+                    "word": "堆",
+                    "contain_seg": [
+                        21
                     ]
                 }
             ]
@@ -12064,6 +12122,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\59.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -12244,6 +12303,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\60.html",
+            "schema": "下2",
             "spatial": [
                 {
                     "label": "landmark",
@@ -12414,6 +12474,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\61.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -12587,6 +12648,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\62.html",
+            "schema": "下3",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -12764,6 +12826,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\63.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -12937,6 +13000,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\64.html",
+            "schema": "下3",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -13121,6 +13185,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\65.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -13294,6 +13359,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\66.html",
+            "schema": "下1；下5",
             "spatial": [
                 {
                     "label": "landmark",
@@ -13316,193 +13382,6 @@
     {
         "qid": 33,
         "context1": {
-            "sentence": "盒子下面还有一张卡片，你一定记得看看，卡片中写着我想对你说的话。",
-            "seg": [
-                "盒子",
-                "下面",
-                "还有",
-                "一",
-                "张",
-                "卡片",
-                "，",
-                "你",
-                "一定",
-                "记得",
-                "看看",
-                "，",
-                "卡片",
-                "中",
-                "写",
-                "着",
-                "我",
-                "想",
-                "对",
-                "你",
-                "说",
-                "的话",
-                "。"
-            ],
-            "pos": [
-                "NOUN",
-                "NOUN",
-                "VERB",
-                "NUM",
-                "NUM",
-                "NOUN",
-                "PUNCT",
-                "PRON",
-                "ADV",
-                "VERB",
-                "VERB",
-                "PUNCT",
-                "NOUN",
-                "PART",
-                "VERB",
-                "PART",
-                "PRON",
-                "VERB",
-                "ADP",
-                "PRON",
-                "VERB",
-                "PART",
-                "PUNCT"
-            ],
-            "dep": [
-                {
-                    "head": 2,
-                    "word": 0,
-                    "relation": "nmod:topic"
-                },
-                {
-                    "head": 2,
-                    "word": 1,
-                    "relation": "nsubj"
-                },
-                {
-                    "head": 2,
-                    "word": 2,
-                    "relation": "ROOT"
-                },
-                {
-                    "head": 5,
-                    "word": 3,
-                    "relation": "nummod"
-                },
-                {
-                    "head": 3,
-                    "word": 4,
-                    "relation": "mark:clf"
-                },
-                {
-                    "head": 2,
-                    "word": 5,
-                    "relation": "dobj"
-                },
-                {
-                    "head": 2,
-                    "word": 6,
-                    "relation": "punct"
-                },
-                {
-                    "head": 9,
-                    "word": 7,
-                    "relation": "nsubj"
-                },
-                {
-                    "head": 9,
-                    "word": 8,
-                    "relation": "advmod"
-                },
-                {
-                    "head": 2,
-                    "word": 9,
-                    "relation": "conj"
-                },
-                {
-                    "head": 9,
-                    "word": 10,
-                    "relation": "ccomp"
-                },
-                {
-                    "head": 2,
-                    "word": 11,
-                    "relation": "punct"
-                },
-                {
-                    "head": 14,
-                    "word": 12,
-                    "relation": "advmod:loc"
-                },
-                {
-                    "head": 12,
-                    "word": 13,
-                    "relation": "case"
-                },
-                {
-                    "head": 2,
-                    "word": 14,
-                    "relation": "conj"
-                },
-                {
-                    "head": 14,
-                    "word": 15,
-                    "relation": "aux:asp"
-                },
-                {
-                    "head": 17,
-                    "word": 16,
-                    "relation": "nsubj"
-                },
-                {
-                    "head": 14,
-                    "word": 17,
-                    "relation": "conj"
-                },
-                {
-                    "head": 19,
-                    "word": 18,
-                    "relation": "case"
-                },
-                {
-                    "head": 20,
-                    "word": 19,
-                    "relation": "nmod:prep"
-                },
-                {
-                    "head": 17,
-                    "word": 20,
-                    "relation": "ccomp"
-                },
-                {
-                    "head": 17,
-                    "word": 21,
-                    "relation": "discourse"
-                },
-                {
-                    "head": 2,
-                    "word": 22,
-                    "relation": "punct"
-                }
-            ],
-            "html": "pictures\\with_spatial\\67.html",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "卡片",
-                    "contain_seg": [
-                        5
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "盒子",
-                    "contain_seg": [
-                        0
-                    ]
-                }
-            ]
-        },
-        "context2": {
             "sentence": "盒子上面还有一张卡片，你一定记得看看，卡片中写着我想对你说的话。",
             "seg": [
                 "盒子",
@@ -13671,7 +13550,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\68.html",
+            "html": "pictures\\with_spatial\\67.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "landmark",
@@ -13685,6 +13565,194 @@
                     "word": "卡片",
                     "contain_seg": [
                         5
+                    ]
+                }
+            ]
+        },
+        "context2": {
+            "sentence": "盒子下面还有一张卡片，你一定记得看看，卡片中写着我想对你说的话。",
+            "seg": [
+                "盒子",
+                "下面",
+                "还有",
+                "一",
+                "张",
+                "卡片",
+                "，",
+                "你",
+                "一定",
+                "记得",
+                "看看",
+                "，",
+                "卡片",
+                "中",
+                "写",
+                "着",
+                "我",
+                "想",
+                "对",
+                "你",
+                "说",
+                "的话",
+                "。"
+            ],
+            "pos": [
+                "NOUN",
+                "NOUN",
+                "VERB",
+                "NUM",
+                "NUM",
+                "NOUN",
+                "PUNCT",
+                "PRON",
+                "ADV",
+                "VERB",
+                "VERB",
+                "PUNCT",
+                "NOUN",
+                "PART",
+                "VERB",
+                "PART",
+                "PRON",
+                "VERB",
+                "ADP",
+                "PRON",
+                "VERB",
+                "PART",
+                "PUNCT"
+            ],
+            "dep": [
+                {
+                    "head": 2,
+                    "word": 0,
+                    "relation": "nmod:topic"
+                },
+                {
+                    "head": 2,
+                    "word": 1,
+                    "relation": "nsubj"
+                },
+                {
+                    "head": 2,
+                    "word": 2,
+                    "relation": "ROOT"
+                },
+                {
+                    "head": 5,
+                    "word": 3,
+                    "relation": "nummod"
+                },
+                {
+                    "head": 3,
+                    "word": 4,
+                    "relation": "mark:clf"
+                },
+                {
+                    "head": 2,
+                    "word": 5,
+                    "relation": "dobj"
+                },
+                {
+                    "head": 2,
+                    "word": 6,
+                    "relation": "punct"
+                },
+                {
+                    "head": 9,
+                    "word": 7,
+                    "relation": "nsubj"
+                },
+                {
+                    "head": 9,
+                    "word": 8,
+                    "relation": "advmod"
+                },
+                {
+                    "head": 2,
+                    "word": 9,
+                    "relation": "conj"
+                },
+                {
+                    "head": 9,
+                    "word": 10,
+                    "relation": "ccomp"
+                },
+                {
+                    "head": 2,
+                    "word": 11,
+                    "relation": "punct"
+                },
+                {
+                    "head": 14,
+                    "word": 12,
+                    "relation": "advmod:loc"
+                },
+                {
+                    "head": 12,
+                    "word": 13,
+                    "relation": "case"
+                },
+                {
+                    "head": 2,
+                    "word": 14,
+                    "relation": "conj"
+                },
+                {
+                    "head": 14,
+                    "word": 15,
+                    "relation": "aux:asp"
+                },
+                {
+                    "head": 17,
+                    "word": 16,
+                    "relation": "nsubj"
+                },
+                {
+                    "head": 14,
+                    "word": 17,
+                    "relation": "conj"
+                },
+                {
+                    "head": 19,
+                    "word": 18,
+                    "relation": "case"
+                },
+                {
+                    "head": 20,
+                    "word": 19,
+                    "relation": "nmod:prep"
+                },
+                {
+                    "head": 17,
+                    "word": 20,
+                    "relation": "ccomp"
+                },
+                {
+                    "head": 17,
+                    "word": 21,
+                    "relation": "discourse"
+                },
+                {
+                    "head": 2,
+                    "word": 22,
+                    "relation": "punct"
+                }
+            ],
+            "html": "pictures\\with_spatial\\68.html",
+            "schema": "下1",
+            "spatial": [
+                {
+                    "label": "trajectory",
+                    "word": "卡片",
+                    "contain_seg": [
+                        5
+                    ]
+                },
+                {
+                    "label": "landmark",
+                    "word": "盒子",
+                    "contain_seg": [
+                        0
                     ]
                 }
             ]
@@ -13863,6 +13931,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\69.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -14057,6 +14126,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\70.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "landmark",
@@ -14318,6 +14388,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\71.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -14575,6 +14646,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\72.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -14913,6 +14985,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\73.html",
+            "schema": "上23",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -15240,6 +15313,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\74.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -15269,207 +15343,6 @@
     {
         "qid": 37,
         "context1": {
-            "sentence": "那张收据我放在办公桌键盘下边了。我下午在外面开会。你自己去我办公室拿一下。",
-            "seg": [
-                "那",
-                "张",
-                "收据",
-                "我",
-                "放在",
-                "办公桌",
-                "键盘",
-                "下边",
-                "了",
-                "。",
-                "我",
-                "下午",
-                "在",
-                "外面",
-                "开会",
-                "。",
-                "你",
-                "自己",
-                "去",
-                "我",
-                "办公室",
-                "拿",
-                "一下",
-                "。"
-            ],
-            "pos": [
-                "DET",
-                "NUM",
-                "NOUN",
-                "PRON",
-                "VERB",
-                "NOUN",
-                "NOUN",
-                "VERB",
-                "PART",
-                "PUNCT",
-                "PRON",
-                "NOUN",
-                "ADP",
-                "NOUN",
-                "VERB",
-                "PUNCT",
-                "PRON",
-                "PRON",
-                "VERB",
-                "PRON",
-                "NOUN",
-                "VERB",
-                "ADV",
-                "PUNCT"
-            ],
-            "dep": [
-                {
-                    "head": 2,
-                    "word": 0,
-                    "relation": "det"
-                },
-                {
-                    "head": 0,
-                    "word": 1,
-                    "relation": "mark:clf"
-                },
-                {
-                    "head": 4,
-                    "word": 2,
-                    "relation": "nmod:topic"
-                },
-                {
-                    "head": 4,
-                    "word": 3,
-                    "relation": "nsubj"
-                },
-                {
-                    "head": 4,
-                    "word": 4,
-                    "relation": "ROOT"
-                },
-                {
-                    "head": 6,
-                    "word": 5,
-                    "relation": "compound:nn"
-                },
-                {
-                    "head": 4,
-                    "word": 6,
-                    "relation": "dobj"
-                },
-                {
-                    "head": 4,
-                    "word": 7,
-                    "relation": "conj"
-                },
-                {
-                    "head": 4,
-                    "word": 8,
-                    "relation": "aux:asp"
-                },
-                {
-                    "head": 4,
-                    "word": 9,
-                    "relation": "punct"
-                },
-                {
-                    "head": 14,
-                    "word": 10,
-                    "relation": "nsubj"
-                },
-                {
-                    "head": 14,
-                    "word": 11,
-                    "relation": "nmod:tmod"
-                },
-                {
-                    "head": 13,
-                    "word": 12,
-                    "relation": "case"
-                },
-                {
-                    "head": 14,
-                    "word": 13,
-                    "relation": "nmod:prep"
-                },
-                {
-                    "head": 14,
-                    "word": 14,
-                    "relation": "ROOT"
-                },
-                {
-                    "head": 14,
-                    "word": 15,
-                    "relation": "punct"
-                },
-                {
-                    "head": 17,
-                    "word": 16,
-                    "relation": "dep"
-                },
-                {
-                    "head": 18,
-                    "word": 17,
-                    "relation": "nsubj"
-                },
-                {
-                    "head": 18,
-                    "word": 18,
-                    "relation": "ROOT"
-                },
-                {
-                    "head": 20,
-                    "word": 19,
-                    "relation": "compound:nn"
-                },
-                {
-                    "head": 18,
-                    "word": 20,
-                    "relation": "dobj"
-                },
-                {
-                    "head": 18,
-                    "word": 21,
-                    "relation": "conj"
-                },
-                {
-                    "head": 21,
-                    "word": 22,
-                    "relation": "advmod"
-                },
-                {
-                    "head": 18,
-                    "word": 23,
-                    "relation": "punct"
-                }
-            ],
-            "html": "pictures\\with_spatial\\75.html",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "收据",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "键盘",
-                    "contain_seg": [
-                        6
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "放",
-                    "contain_seg": [
-                        4
-                    ]
-                }
-            ]
-        },
-        "context2": {
             "sentence": "那张收据我放在办公桌键盘上边了。我下午在外面开会。你自己去我办公室拿一下。",
             "seg": [
                 "那",
@@ -15645,7 +15518,210 @@
                     "relation": "punct"
                 }
             ],
+            "html": "pictures\\with_spatial\\75.html",
+            "schema": "上11",
+            "spatial": [
+                {
+                    "label": "trajectory",
+                    "word": "收据",
+                    "contain_seg": [
+                        2
+                    ]
+                },
+                {
+                    "label": "landmark",
+                    "word": "键盘",
+                    "contain_seg": [
+                        6
+                    ]
+                },
+                {
+                    "label": "event",
+                    "word": "放",
+                    "contain_seg": [
+                        4
+                    ]
+                }
+            ]
+        },
+        "context2": {
+            "sentence": "那张收据我放在办公桌键盘下边了。我下午在外面开会。你自己去我办公室拿一下。",
+            "seg": [
+                "那",
+                "张",
+                "收据",
+                "我",
+                "放在",
+                "办公桌",
+                "键盘",
+                "下边",
+                "了",
+                "。",
+                "我",
+                "下午",
+                "在",
+                "外面",
+                "开会",
+                "。",
+                "你",
+                "自己",
+                "去",
+                "我",
+                "办公室",
+                "拿",
+                "一下",
+                "。"
+            ],
+            "pos": [
+                "DET",
+                "NUM",
+                "NOUN",
+                "PRON",
+                "VERB",
+                "NOUN",
+                "NOUN",
+                "VERB",
+                "PART",
+                "PUNCT",
+                "PRON",
+                "NOUN",
+                "ADP",
+                "NOUN",
+                "VERB",
+                "PUNCT",
+                "PRON",
+                "PRON",
+                "VERB",
+                "PRON",
+                "NOUN",
+                "VERB",
+                "ADV",
+                "PUNCT"
+            ],
+            "dep": [
+                {
+                    "head": 2,
+                    "word": 0,
+                    "relation": "det"
+                },
+                {
+                    "head": 0,
+                    "word": 1,
+                    "relation": "mark:clf"
+                },
+                {
+                    "head": 4,
+                    "word": 2,
+                    "relation": "nmod:topic"
+                },
+                {
+                    "head": 4,
+                    "word": 3,
+                    "relation": "nsubj"
+                },
+                {
+                    "head": 4,
+                    "word": 4,
+                    "relation": "ROOT"
+                },
+                {
+                    "head": 6,
+                    "word": 5,
+                    "relation": "compound:nn"
+                },
+                {
+                    "head": 4,
+                    "word": 6,
+                    "relation": "dobj"
+                },
+                {
+                    "head": 4,
+                    "word": 7,
+                    "relation": "conj"
+                },
+                {
+                    "head": 4,
+                    "word": 8,
+                    "relation": "aux:asp"
+                },
+                {
+                    "head": 4,
+                    "word": 9,
+                    "relation": "punct"
+                },
+                {
+                    "head": 14,
+                    "word": 10,
+                    "relation": "nsubj"
+                },
+                {
+                    "head": 14,
+                    "word": 11,
+                    "relation": "nmod:tmod"
+                },
+                {
+                    "head": 13,
+                    "word": 12,
+                    "relation": "case"
+                },
+                {
+                    "head": 14,
+                    "word": 13,
+                    "relation": "nmod:prep"
+                },
+                {
+                    "head": 14,
+                    "word": 14,
+                    "relation": "ROOT"
+                },
+                {
+                    "head": 14,
+                    "word": 15,
+                    "relation": "punct"
+                },
+                {
+                    "head": 17,
+                    "word": 16,
+                    "relation": "dep"
+                },
+                {
+                    "head": 18,
+                    "word": 17,
+                    "relation": "nsubj"
+                },
+                {
+                    "head": 18,
+                    "word": 18,
+                    "relation": "ROOT"
+                },
+                {
+                    "head": 20,
+                    "word": 19,
+                    "relation": "compound:nn"
+                },
+                {
+                    "head": 18,
+                    "word": 20,
+                    "relation": "dobj"
+                },
+                {
+                    "head": 18,
+                    "word": 21,
+                    "relation": "conj"
+                },
+                {
+                    "head": 21,
+                    "word": 22,
+                    "relation": "advmod"
+                },
+                {
+                    "head": 18,
+                    "word": 23,
+                    "relation": "punct"
+                }
+            ],
             "html": "pictures\\with_spatial\\76.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -15872,6 +15948,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\77.html",
+            "schema": "上24",
             "spatial": [
                 {
                     "label": "landmark",
@@ -16094,6 +16171,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\78.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "landmark",
@@ -16360,6 +16438,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\79.html",
+            "schema": "上23",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -16624,6 +16703,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\80.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "landmark",
@@ -16850,6 +16930,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\81.html",
+            "schema": "上14",
             "spatial": [
                 {
                     "label": "landmark",
@@ -17072,6 +17153,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\82.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "landmark",
@@ -17389,6 +17471,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\83.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -17702,6 +17785,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\84.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "landmark",
@@ -17984,6 +18068,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\85.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "landmark",
@@ -18262,6 +18347,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\86.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "landmark",
@@ -18425,6 +18511,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\87.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "landmark",
@@ -18577,6 +18664,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\88.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "landmark",
@@ -18698,6 +18786,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\89.html",
+            "schema": "上14",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -18822,6 +18911,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\90.html",
+            "schema": "下1；下5",
             "spatial": [
                 {
                     "label": "landmark",
@@ -19034,6 +19124,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\91.html",
+            "schema": "上21；上23；上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -19242,6 +19333,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\92.html",
+            "schema": "下4",
             "spatial": [
                 {
                     "label": "landmark",
@@ -19370,6 +19462,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\93.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -19487,6 +19580,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\94.html",
+            "schema": "下1；下5",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -19650,6 +19744,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\95.html",
+            "schema": "上21",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -19816,6 +19911,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\96.html",
+            "schema": "下1",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -19979,6 +20075,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\97.html",
+            "schema": "上11",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -20138,6 +20235,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\98.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -20336,6 +20434,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\99.html",
+            "schema": "上23",
             "spatial": [
                 {
                     "label": "trajectory",
@@ -20531,6 +20630,7 @@
                 }
             ],
             "html": "pictures\\with_spatial\\100.html",
+            "schema": "下5",
             "spatial": [
                 {
                     "label": "trajectory",

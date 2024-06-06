@@ -137,7 +137,7 @@ def help(func_name: ProgramFunc = None):
     if not func_name:
         print("""
         使用方法: python move_corpus2app.py [program_func] [rp_pair] [file_path]
-            program_func: 使用的函数. 选项有'add', 'update', 'delete', 'help'.
+            program_func: 使用的函数. 选项有'add', 'update', 'delete', 'help', 'show'.
             rp_pair: 需要操作的替换对.
             file_path: 包含句子对的json文件路径.
             """)

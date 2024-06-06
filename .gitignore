@@ -14,3 +14,4 @@ jsonline_corpus
 extract_parallel.py
 *_deprecated.*
 task2/showAnnotation/pictures/
+api_keys/

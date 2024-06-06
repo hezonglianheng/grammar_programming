@@ -9213,7 +9213,7 @@
                 }
             ]
         },
-        "judge": true
+        "judge": false
     },
     {
         "qid": 23,

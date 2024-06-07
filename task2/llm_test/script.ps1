@@ -7,6 +7,7 @@ $claude = "claude"
 $ernie = "ernie"
 $llama3 = "llama3"
 $gemma = "gemma"
+$moonshot = "moonshot"
 
 $zero = "zero"
 

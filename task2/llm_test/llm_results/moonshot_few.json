@@ -1,0 +1,1452 @@
+[
+    {
+        "context1": "她忽然在一只黑缎子做的小盒子上，发现了一串用金刚钻镶成的项链。",
+        "context2": "她忽然在一只黑缎子做的小盒子下，发现了一串用金刚钻镶成的项链。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-28060937fa5d4ea093557b0487274840",
+            "object": "chat.completion",
+            "created": 1717727956,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 260,
+                "completion_tokens": 2,
+                "total_tokens": 262
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "营长躲在坦克车上呢。",
+        "context2": "营长躲在坦克车下呢。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-d13618ea3091437ea692e1698a888f64",
+            "object": "chat.completion",
+            "created": 1717727959,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 231,
+                "completion_tokens": 2,
+                "total_tokens": 233
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "一张微微泛黄的旧照片上，小伙子一身白色西装，脖子上系着领带。",
+        "context2": "一张微微泛黄的旧照片上，小伙子一身白色西装，脖子下系着领带。",
+        "judge": true,
+        "response": {
+            "id": "cmpl-abfdc31374b04394b378293b1f99b5f2",
+            "object": "chat.completion",
+            "created": 1717727964,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 258,
+                "completion_tokens": 2,
+                "total_tokens": 260
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "当桑乔背着桑桑踏过松软的稻草走进校园时，桑桑看到了站在梧桐树上的纸月。",
+        "context2": "当桑乔背着桑桑踏过松软的稻草走进校园时，桑桑看到了站在梧桐树下的纸月。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-c12ae9cbf5b74e2588263d4108ab1155",
+            "object": "chat.completion",
+            "created": 1717727966,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 264,
+                "completion_tokens": 2,
+                "total_tokens": 266
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "他突然转过身，把饭碗搁到了灶台上，走出了厨房，来到了屋后。",
+        "context2": "他突然转过身，把饭碗搁到了灶台下，走出了厨房，来到了屋后。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-6b4a381ad6bd4eb0b5f5c893dd3ad2f4",
+            "object": "chat.completion",
+            "created": 1717727970,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 258,
+                "completion_tokens": 2,
+                "total_tokens": 260
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "塔基前端中央的一块黑色大碑石上，用中苏两国文字刻着“永恒的光荣”五个大字。大字上面刻着两行碑文。",
+        "context2": "塔基前端中央的一块黑色大碑石上，用中苏两国文字刻着“永恒的光荣”五个大字。大字下面刻着两行碑文。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-97388ed9477a4e50a106675379215a2b",
+            "object": "chat.completion",
+            "created": 1717727975,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 290,
+                "completion_tokens": 2,
+                "total_tokens": 292
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "他的房间不大，但屋顶特高，上面有一只白炽灯，每天晚上开着，这常常使他无法睡眠。",
+        "context2": "他的房间不大，但屋顶特高，下面有一只白炽灯，每天晚上开着，这常常使他无法睡眠。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-562a3fe1b2e54c2b97800dcace1e928c",
+            "object": "chat.completion",
+            "created": 1717727978,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 268,
+                "completion_tokens": 2,
+                "total_tokens": 270
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "你可以站在荔园堡的纪念碑上，默默回望一段红色历史。",
+        "context2": "你可以站在荔园堡的纪念碑下，默默回望一段红色历史。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-81517eaecc1f4c31818f497adb5ffec8",
+            "object": "chat.completion",
+            "created": 1717727980,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 248,
+                "completion_tokens": 2,
+                "total_tokens": 250
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "这时，我才警觉到，这支部队把政工队当作贴在脚底板上的烂臭泥一样，恨不得立时甩掉。",
+        "context2": "这时，我才警觉到，这支部队把政工队当作贴在脚底板下的烂臭泥一样，恨不得立时甩掉。",
+        "judge": true,
+        "response": {
+            "id": "cmpl-5f93f9e46585472c9d7468dce1709a50",
+            "object": "chat.completion",
+            "created": 1717727985,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "True"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 276,
+                "completion_tokens": 2,
+                "total_tokens": 278
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "进门口的架子上，摆着一瓶洗手液，上边粘着苍蝇和蚊子的尸体。",
+        "context2": "进门口的架子上，摆着一瓶洗手液，下边粘着苍蝇和蚊子的尸体。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-81ef753e429942779a9c204d2a169f21",
+            "object": "chat.completion",
+            "created": 1717727990,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 260,
+                "completion_tokens": 2,
+                "total_tokens": 262
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "自国民党特务盘据门头沟以来，贪污肥己，丝毫不顾窑上保险建设，以致矿工生命安全毫无保障。",
+        "context2": "自国民党特务盘据门头沟以来，贪污肥己，丝毫不顾窑下保险建设，以致矿工生命安全毫无保障。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-25db26edebe442508a327f0bd7be2672",
+            "object": "chat.completion",
+            "created": 1717727993,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 274,
+                "completion_tokens": 2,
+                "total_tokens": 276
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "蒋一轮用手推了一下鼻梁上的眼镜，将信接到手中，然后转过身去，走到一棵树下，倚在树上，打开了那封信。",
+        "context2": "蒋一轮用手推了一下鼻梁上的眼镜，将信接到手中，然后转过身去，走到一棵树下，倚在树下，打开了那封信。",
+        "judge": true,
+        "response": {
+            "id": "cmpl-8724c22ed46b49858fdbb4429b0bff41",
+            "object": "chat.completion",
+            "created": 1717727997,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "True"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 282,
+                "completion_tokens": 2,
+                "total_tokens": 284
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "查尔斯把脸埋在枕头上。可以听到一声声凄惨的哭喊声。",
+        "context2": "查尔斯把脸埋在枕头下。可以听到一声声凄惨的哭喊声。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-fdc4eb66129d4582b98efde453883b20",
+            "object": "chat.completion",
+            "created": 1717727999,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 254,
+                "completion_tokens": 2,
+                "total_tokens": 256
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "最初有位荷兰的滑冰运动员，为了在不结冰的季节继续进行训练，尝试把木线轴安在皮鞋上，试图在平坦的地面上滑行。",
+        "context2": "最初有位荷兰的滑冰运动员，为了在不结冰的季节继续进行训练，尝试把木线轴安在皮鞋下，试图在平坦的地面上滑行。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-d847636c5e09466a8c1d9bfc22dbc396",
+            "object": "chat.completion",
+            "created": 1717728001,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "True"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 290,
+                "completion_tokens": 2,
+                "total_tokens": 292
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "这里上车的人不少，下车的只有一位旅客，那就是香雪，原来挂在她胳膊上的那只篮子不见了，她把它塞到那个女学生座位底了。",
+        "context2": "这里上车的人不少，下车的只有一位旅客，那就是香雪，原来挂在她胳膊下的那只篮子不见了，她把它塞到那个女学生座位底了。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-c91a630049d944e5afe1eac5b323cbf0",
+            "object": "chat.completion",
+            "created": 1717728003,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "True"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 286,
+                "completion_tokens": 2,
+                "total_tokens": 288
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "列宾生命的最后几年，右手已不能握画笔，他就改用左手画；调色板则借助皮带挂在脖子上面。",
+        "context2": "列宾生命的最后几年，右手已不能握画笔，他就改用左手画；调色板则借助皮带挂在脖子下面。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-92ebda436f9843c7bc3dd6d0ccaef61a",
+            "object": "chat.completion",
+            "created": 1717728006,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 274,
+                "completion_tokens": 2,
+                "total_tokens": 276
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "校长办公桌上面有一个方形的鱼缸。饲养说明死死地粘在鱼缸的上面。",
+        "context2": "校长办公桌上面有一个方形的鱼缸。饲养说明死死地粘在鱼缸的下面。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-982785916f37478d9812a94c273e0c6e",
+            "object": "chat.completion",
+            "created": 1717728009,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 256,
+                "completion_tokens": 2,
+                "total_tokens": 258
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "不知多少次从太行山上的老家坐普速列车前往郑州，再转车去外地打工，峡谷中列车的“哐当”声成了施工队员王旭明抹不去的记忆。",
+        "context2": "不知多少次从太行山下的老家坐普速列车前往郑州，再转车去外地打工，峡谷中列车的“哐当”声成了施工队员王旭明抹不去的记忆。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-dab0fe0bee114baa9959b7fbb7c75472",
+            "object": "chat.completion",
+            "created": 1717728011,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 302,
+                "completion_tokens": 2,
+                "total_tokens": 304
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "乒乓球先是旋转了几下，接着从台面滚落到地上。",
+        "context2": "乒乓球先是旋转了几下，接着从台面滚落到地下。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-2d817987616247e688bcbe7c7616ca1d",
+            "object": "chat.completion",
+            "created": 1717728014,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "True"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 244,
+                "completion_tokens": 2,
+                "total_tokens": 246
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "今天是学校期末考试排名放榜的时间。小玉怀着紧张的心情去看排名榜，发现自己的名字还是在小宇的名字上边。",
+        "context2": "今天是学校期末考试排名放榜的时间。小玉怀着紧张的心情去看排名榜，发现自己的名字还是在小宇的名字下边。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-ea35e3b1e29f4267bbebc17cb0849efb",
+            "object": "chat.completion",
+            "created": 1717728016,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 270,
+                "completion_tokens": 2,
+                "total_tokens": 272
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "从苍苍茫茫的草原走来，我是蓝天上翱翔的雏鹰。",
+        "context2": "从苍苍茫茫的草原走来，我是蓝天下翱翔的雏鹰。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-6a59e04dcd8b4a8a9e1310e9f9cf3347",
+            "object": "chat.completion",
+            "created": 1717728019,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 256,
+                "completion_tokens": 2,
+                "total_tokens": 258
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "从巍峨峻拔的高原走来，我是冰山上的一朵雪莲。",
+        "context2": "从巍峨峻拔的高原走来，我是冰山下的一朵雪莲。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-8ff47f86c169408996fdb71988304504",
+            "object": "chat.completion",
+            "created": 1717728021,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 256,
+                "completion_tokens": 2,
+                "total_tokens": 258
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "他坐在路边的树上，吹着口哨，试图吸引路过女孩子的注意。",
+        "context2": "他坐在路边的树下，吹着口哨，试图吸引路过女孩子的注意。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-6f7d0b9324554db0a2a7a361c4b7e4de",
+            "object": "chat.completion",
+            "created": 1717728026,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "True"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 252,
+                "completion_tokens": 2,
+                "total_tokens": 254
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "人家拿起一座关二爷根雕，把底面翻过来，指着上边的署名给他看，正是“古元”两个字。",
+        "context2": "人家拿起一座关二爷根雕，把底面翻过来，指着下边的署名给他看，正是“古元”两个字。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-6047416a513f4e7f874f25bf9bacc1e1",
+            "object": "chat.completion",
+            "created": 1717728028,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 278,
+                "completion_tokens": 2,
+                "total_tokens": 280
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "兰兰惊奇地站在潜水桥上，透过玻璃看见大大小小的鱼游来游去，各种各样的船只从桥顶上驶过来划过去。",
+        "context2": "兰兰惊奇地站在潜水桥下，透过玻璃看见大大小小的鱼游来游去，各种各样的船只从桥顶上驶过来划过去。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-b2a9da593e1641ebae8d54d3459650ed",
+            "object": "chat.completion",
+            "created": 1717728030,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 280,
+                "completion_tokens": 2,
+                "total_tokens": 282
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "加拿大多伦多郊区一公寓楼上当天夜间发生枪击事件，导致包括枪手在内的6人死亡、1人受伤。",
+        "context2": "加拿大多伦多郊区一公寓楼下当天夜间发生枪击事件，导致包括枪手在内的6人死亡、1人受伤。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-4e65036eb01143e7925f3466d928d5be",
+            "object": "chat.completion",
+            "created": 1717728033,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 268,
+                "completion_tokens": 2,
+                "total_tokens": 270
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "李光头没有去乡下，走到南门外的木桥上就站住了，在桥栏上坐了两个小时。",
+        "context2": "李光头没有去乡下，走到南门外的木桥上就站住了，在桥栏下坐了两个小时。",
+        "judge": false,
+        "response": {
+            "id": "cmpl-80b1daf976164856b4f2666327dd8171",
+            "object": "chat.completion",
+            "created": 1717728035,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 266,
+                "completion_tokens": 2,
+                "total_tokens": 268
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "小黑羊长着两只蓝宝石般的眼睛，披一身黑缎子似的绒毛，圆圆的脖子上面还吊着两只肉铃铛。",
+        "context2": "小黑羊长着两只蓝宝石般的眼睛，披一身黑缎子似的绒毛，圆圆的脖子下面还吊着两只肉铃铛。",
+        "judge": true,
+        "response": {
+            "id": "cmpl-6dd27f3710d144149833f4943acb0992",
+            "object": "chat.completion",
+            "created": 1717728038,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 274,
+                "completion_tokens": 2,
+                "total_tokens": 276
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "工务段需要争取在业余时间完成一千个洋镐把，但缺乏木料，工人们便研究将堆在城墙上边的干死树干拿过来作为原料。",
+        "context2": "工务段需要争取在业余时间完成一千个洋镐把，但缺乏木料，工人们便研究将堆在城墙下边的干死树干拿过来作为原料。",
+        "judge": false,
+        "response": {
+            "id": "cmpl-0be2b72e23b24c238eedf67648ac25b5",
+            "object": "chat.completion",
+            "created": 1717728043,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 300,
+                "completion_tokens": 2,
+                "total_tokens": 302
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "我们考察一个地区的文明程度，不仅要依靠文献记载，还要注意实地考察地上的建筑物。",
+        "context2": "我们考察一个地区的文明程度，不仅要依靠文献记载，还要注意实地考察地下的建筑物。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-62a6ec7ac12f44d7a151e20556811b76",
+            "object": "chat.completion",
+            "created": 1717728047,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 254,
+                "completion_tokens": 2,
+                "total_tokens": 256
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "我仰面躺着，天花板上安装了一圈轻钢轨道，挂输液瓶子用的。",
+        "context2": "我仰面躺着，天花板下安装了一圈轻钢轨道，挂输液瓶子用的。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-8f812bda158340d7b273da02f5195f2c",
+            "object": "chat.completion",
+            "created": 1717728051,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "True"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 252,
+                "completion_tokens": 2,
+                "total_tokens": 254
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "朦胧的月光照在河面上，映射在桥亭的天花板上面，一闪一闪的。",
+        "context2": "朦胧的月光照在河面上，映射在桥亭的天花板下面，一闪一闪的。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-1aaea876f2f64ac39192c6cc1e84b0c6",
+            "object": "chat.completion",
+            "created": 1717728054,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 260,
+                "completion_tokens": 2,
+                "total_tokens": 262
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "杨一刚再次对中巴车进行搜查，结果纸箱上装在黑色塑料袋内的毒品也被发现了。",
+        "context2": "杨一刚再次对中巴车进行搜查，结果纸箱下装在黑色塑料袋内的毒品也被发现了。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-790783fc68964eea95868d65d0d1a976",
+            "object": "chat.completion",
+            "created": 1717728057,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 264,
+                "completion_tokens": 2,
+                "total_tokens": 266
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "盒子上面还有一张卡片，你一定记得看看，卡片中写着我想对你说的话。",
+        "context2": "盒子下面还有一张卡片，你一定记得看看，卡片中写着我想对你说的话。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-74bec4dff17d4fd0b21cec96a725f71f",
+            "object": "chat.completion",
+            "created": 1717728062,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 252,
+                "completion_tokens": 2,
+                "total_tokens": 254
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "一位男老师在讲台上边踱着步，听着孩子们大声整齐地念着羌语的词汇。",
+        "context2": "一位男老师在讲台下边踱着步，听着孩子们大声整齐地念着羌语的词汇。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-d2176200e5d544d19b5576184baf2a68",
+            "object": "chat.completion",
+            "created": 1717728067,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 266,
+                "completion_tokens": 2,
+                "total_tokens": 268
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "跪坐在地面，将腰背挺直，两腿并拢，肩部放松，两手分别自然地放在大腿上，目视前方，自然均匀地呼吸。",
+        "context2": "跪坐在地面，将腰背挺直，两腿并拢，肩部放松，两手分别自然地放在大腿下，目视前方，自然均匀地呼吸。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-4f289fea52f24797b9fa5a880f8c3b42",
+            "object": "chat.completion",
+            "created": 1717728069,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 286,
+                "completion_tokens": 2,
+                "total_tokens": 288
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "他虽然七十二岁了，还挺精神，声音洪亮，一边与我唠着话，一边将木梯子靠放在一棵梨树上，熟练地爬上去，整理被风吹乱的鸟窝。",
+        "context2": "他虽然七十二岁了，还挺精神，声音洪亮，一边与我唠着话，一边将木梯子靠放在一棵梨树下，熟练地爬上去，整理被风吹乱的鸟窝。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-2277d0eb5aad4d86b524b6e7306b4f07",
+            "object": "chat.completion",
+            "created": 1717728072,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "True"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 304,
+                "completion_tokens": 2,
+                "total_tokens": 306
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "那张收据我放在办公桌键盘上边了。我下午在外面开会。你自己去我办公室拿一下。",
+        "context2": "那张收据我放在办公桌键盘下边了。我下午在外面开会。你自己去我办公室拿一下。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-00a14e8b65324be1bd9a29f228c9a883",
+            "object": "chat.completion",
+            "created": 1717728075,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 264,
+                "completion_tokens": 2,
+                "total_tokens": 266
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "厨房里的桌子上方挂着一块苹果和梨图案的墙布，上面还有一瓶葡萄酒和一只没有脑袋的烤鸡。",
+        "context2": "厨房里的桌子上方挂着一块苹果和梨图案的墙布，下面还有一瓶葡萄酒和一只没有脑袋的烤鸡。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-4c90ba4f58934388ae66df43afafe65d",
+            "object": "chat.completion",
+            "created": 1717728080,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 268,
+                "completion_tokens": 2,
+                "total_tokens": 270
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "果然，他用草板纸自制了一个约半尺长的长方形牌子，用毛笔写着“我是中国人”几个大字，并在上边注上英文。",
+        "context2": "果然，他用草板纸自制了一个约半尺长的长方形牌子，用毛笔写着“我是中国人”几个大字，并在下边注上英文。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-0ca48cb7a1df4466bd70e3a617eee16f",
+            "object": "chat.completion",
+            "created": 1717728082,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 286,
+                "completion_tokens": 2,
+                "total_tokens": 288
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "他把学了的字写在本子上，再在上面画一个图，忘了时可从图上记起来。",
+        "context2": "他把学了的字写在本子上，再在下面画一个图，忘了时可从图上记起来。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-47a38b0cd4164f37a4ccae11af2d9c2e",
+            "object": "chat.completion",
+            "created": 1717728086,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 271,
+                "completion_tokens": 2,
+                "total_tokens": 273
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "实施吊装时，一根粗实的绳索从山顶下垂到距岩洞口31米处，上面吊着定向滑轮，另一根绳索穿过滑轮，一头捆住棺木，一头连着绞车。",
+        "context2": "实施吊装时，一根粗实的绳索从山顶下垂到距岩洞口31米处，下面吊着定向滑轮，另一根绳索穿过滑轮，一头捆住棺木，一头连着绞车。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-256e083431514d649c30d7f71a9e6ee9",
+            "object": "chat.completion",
+            "created": 1717728091,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "True"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 316,
+                "completion_tokens": 2,
+                "total_tokens": 318
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "父亲也不出门，在花园中收拾花草。把一串大绿香蕉也摘下来，挂在堂中，上面还拴上一些五彩纸条儿，真是好看。",
+        "context2": "父亲也不出门，在花园中收拾花草。把一串大绿香蕉也摘下来，挂在堂中，下面还拴上一些五彩纸条儿，真是好看。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-7f25ff9bb4e54bb1a87713d1347a71f3",
+            "object": "chat.completion",
+            "created": 1717728094,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "True"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 284,
+                "completion_tokens": 2,
+                "total_tokens": 286
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "王稼祥打开第二个箱子，里边还是书，不过上边有国民党法币500元。",
+        "context2": "王稼祥打开第二个箱子，里边还是书，不过下边有国民党法币500元。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-b03bad8ba62e44d2a2af03d9371fd219",
+            "object": "chat.completion",
+            "created": 1717728097,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 258,
+                "completion_tokens": 2,
+                "total_tokens": 260
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "神像两边是两排架子，架子上摆满了楦头。",
+        "context2": "神像两边是两排架子，架子下摆满了楦头。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-1a55ff8e6f224662a98ab8c47abcea40",
+            "object": "chat.completion",
+            "created": 1717728102,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 250,
+                "completion_tokens": 2,
+                "total_tokens": 252
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "赫鲁晓夫还说，这架飞机上面装有定时炸弹。为了灭除罪迹，飞行员被教导不得为苏联当局活擒。",
+        "context2": "赫鲁晓夫还说，这架飞机下面装有定时炸弹。为了灭除罪迹，飞行员被教导不得为苏联当局活擒。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-0a0de25321f344928013475d607a7978",
+            "object": "chat.completion",
+            "created": 1717728106,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 278,
+                "completion_tokens": 2,
+                "total_tokens": 280
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "在桌上的书堆中间有本皮面装订的小书。",
+        "context2": "在桌下的书堆中间有本皮面装订的小书。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-8a3ac83a083a445a9c98930c75a1ad8a",
+            "object": "chat.completion",
+            "created": 1717728108,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 243,
+                "completion_tokens": 2,
+                "total_tokens": 245
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "达斡尔族的摇篮很有特色，它象一叶扁舟，半倾斜地垂挂在屋梁上。",
+        "context2": "达斡尔族的摇篮很有特色，它象一叶扁舟，半倾斜地垂挂在屋梁下。",
+        "judge": true,
+        "response": {
+            "id": "cmpl-0a516460263e4a6d929599b4ecd685fb",
+            "object": "chat.completion",
+            "created": 1717728112,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 270,
+                "completion_tokens": 2,
+                "total_tokens": 272
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "黄昏，我端着碗，蹲在门口的土台上，等伙伴们来捉迷藏。",
+        "context2": "黄昏，我端着碗，蹲在门口的土台下，等伙伴们来捉迷藏。",
+        "judge": false,
+        "response": {
+            "id": "chatcmpl-cf3eb6fb367543d18eb24902698631fb",
+            "object": "chat.completion",
+            "created": 1717728117,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 260,
+                "completion_tokens": 2,
+                "total_tokens": 262
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    },
+    {
+        "context1": "蒋一轮倚在柳树上，用的是让桑桑最着迷的姿势：两腿微微交叉着。",
+        "context2": "蒋一轮倚在柳树下，用的是让桑桑最着迷的姿势：两腿微微交叉着。",
+        "judge": true,
+        "response": {
+            "id": "chatcmpl-d3d57223948f4b9f83b3311416704dae",
+            "object": "chat.completion",
+            "created": 1717728119,
+            "model": "moonshot-v1-128k",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "False"
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 260,
+                "completion_tokens": 2,
+                "total_tokens": 262
+            },
+            "code": 0,
+            "msg": "ok",
+            "system_fingerprint": null
+        }
+    }
+]

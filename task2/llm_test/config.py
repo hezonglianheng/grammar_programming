@@ -4,7 +4,7 @@
 from typing import Literal
 
 # 模型名称
-ModelNames = Literal['ernie', 'claude', 'llama3', 'gemma', 'gpt4o']
+ModelNames = Literal['ernie', 'claude', 'llama3', 'gemma', 'gpt4o', 'moonshot']
 
 # LLM返回类型
 LLMResponse = Literal['error', 'message']

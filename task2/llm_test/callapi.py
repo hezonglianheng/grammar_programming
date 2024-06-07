@@ -8,6 +8,29 @@ import config
 
 TEMPERATURE = 0.1 # 固定温度；降低温度，提高生成文本的准确性
 
+def call_moonshot(text: str, api: str) -> dict:
+    url = 'https://api.zhizengzeng.com/v1/chat/completions'
+    header = {
+        'Content-Type': 'application/json', 
+        'Authorization': f'Bearer {api}', 
+    }
+    body = {
+        'model': 'moonshot-v1-128k', 
+        'messages': [
+            {
+                'role': 'system',
+                'content': '你是一位了解空间表达的人。请只用True或False回答问题。'
+            },
+            {
+                'role': 'user', 
+                'content': text
+            }
+        ], 
+        'temperature': TEMPERATURE, # 降低温度，提高生成文本的准确性
+    }
+    response = requests.post(url, headers=header, json=body)
+    return response.json()
+
 def call_gpt(text: str, api: str) -> dict:
     url = 'https://api.zhizengzeng.com/v1/chat/completions'
     header = {
@@ -137,5 +160,8 @@ def call_api(text: str, model_name: config.ModelNames) -> dict:
     elif model_name == 'gpt4o':
         api = get_api(config.GPT_API_FILE)
         return call_gpt(text, api)
+    elif model_name == 'moonshot':
+        api = get_api(config.GPT_API_FILE)
+        return call_moonshot(text, api)
     else:
         raise ValueError(f"Unknown model name: {model_name}")

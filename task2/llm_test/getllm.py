@@ -12,8 +12,6 @@ from typing import Literal
 import random
 from pathlib import Path
 
-ShotType = Literal['zero', 'few']
-
 def main(model_name: config.ModelNames, add_shot: bool = True):
     with open(config.TEST_DATA, 'r', encoding='utf8') as f:
         data: list[dict] = json.load(f)
@@ -43,7 +41,7 @@ def main(model_name: config.ModelNames, add_shot: bool = True):
 if __name__ == '__main__':
     model_name = sys.argv[1]
     if len(sys.argv) == 3:
-        add_shot: ShotType = sys.argv[2]
+        add_shot: config.ShotType = sys.argv[2]
         if add_shot == 'zero':
             main(model_name, add_shot=False)
         else:

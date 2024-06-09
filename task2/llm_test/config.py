@@ -9,6 +9,8 @@ ModelNames = Literal['ernie', 'claude', 'llama3', 'gemma', 'gpt4o', 'moonshot']
 # LLM返回类型
 LLMResponse = Literal['error', 'message']
 
+ShotType = Literal['zero', 'few'] # zero: 无shot, few: 有shot
+
 # api-keys
 CLAUDE_API_FILE = r'api_keys\claude-api.txt'
 ERNIE_API_FILE = r'api_keys\ernie-api.txt'
@@ -22,6 +24,9 @@ CONTEXT1 = 'context1'
 CONTEXT2 = 'context2'
 SENTENCE = 'sentence'
 JUDGE = 'judge'
+SCHEMA = 'schema'
 
 # 整理结果
 RESULT_DIR = r'llm_results'
+# 统计结果
+STATISTICS_FILE = r'statistics.xlsx'

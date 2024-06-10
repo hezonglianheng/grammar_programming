@@ -4,7 +4,7 @@
 import json # read json.
 import jsonlines # write jsonlines.
 from itertools import accumulate
-from bisect import bisect_left
+from bisect import bisect_left, bisect
 from tqdm import tqdm
 import config
 
@@ -25,10 +25,12 @@ def merge_annotation(ann: dict):
         # role的文本
         role_word: str = text[role[config.START_OFFSET]:role[config.END_OFFSET]]
         # role的开始和结束位置
-        start_hit: int = bisect_left(seg_indexes, role[config.START_OFFSET])
-        end_hit: int = bisect_left(seg_indexes, role[config.END_OFFSET])
+        start_hit: int = bisect(seg_indexes, role[config.START_OFFSET])
+        end_hit: int = bisect(seg_indexes, role[config.END_OFFSET]-1)
         # role包含的分词结果项目
-        role_contain_seg: list[int] = list(range(start_hit, end_hit))
+        role_contain_seg: list[int] = list(range(start_hit-1, end_hit))
+        if not role_contain_seg:
+            print(role[config.START_OFFSET], role[config.END_OFFSET]-1, seg_indexes, start_hit, end_hit, 'fail')
         # 返回结果
         return {config.LABEL: role_label, config.WORD: role_word, config.CONTAIN_SEG: role_contain_seg}
 

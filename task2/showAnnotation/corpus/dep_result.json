@@ -177,24 +177,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\1.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "项链",
-                    "contain_seg": [
-                        22
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "盒子",
-                    "contain_seg": [
-                        10
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/1.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "她忽然在一只黑缎子做的小盒子下，发现了一串用金刚钻镶成的项链。",
@@ -372,24 +356,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\2.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "盒子",
-                    "contain_seg": [
-                        10
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "项链",
-                    "contain_seg": [
-                        22
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/2.html",
+            "schema": "下1"
         },
         "judge": false
     },
@@ -452,31 +420,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\3.html",
-            "schema": "上14",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "营长",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "躲",
-                    "contain_seg": [
-                        1
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "坦克车",
-                    "contain_seg": [
-                        3
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/3.html",
+            "schema": "上14"
         },
         "context2": {
             "sentence": "营长躲在坦克车下呢。",
@@ -535,32 +480,8 @@
                     "relation": "ROOT"
                 }
             ],
-            "html": "pictures\\with_spatial\\4.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "营长",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "躲",
-                    "contain_seg": [
-                        1
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "坦克车",
-                    "contain_seg": [
-                        3,
-                        4
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/4.html",
+            "schema": "下1"
         },
         "judge": false
     },
@@ -707,31 +628,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\5.html",
-            "schema": "上23",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "领带",
-                    "contain_seg": [
-                        17
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "系",
-                    "contain_seg": [
-                        15
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "脖子",
-                    "contain_seg": [
-                        13
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/5.html",
+            "schema": "上23"
         },
         "context2": {
             "sentence": "一张微微泛黄的旧照片上，小伙子一身白色西装，脖子下系着领带。",
@@ -867,31 +765,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\6.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "脖子",
-                    "contain_seg": [
-                        13
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "领带",
-                    "contain_seg": [
-                        16
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "系",
-                    "contain_seg": [
-                        14
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/6.html",
+            "schema": "下5"
         },
         "judge": true
     },
@@ -1052,31 +927,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\7.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "梧桐树",
-                    "contain_seg": [
-                        16
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "纸月",
-                    "contain_seg": [
-                        19
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "站",
-                    "contain_seg": [
-                        15
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/7.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "当桑乔背着桑桑踏过松软的稻草走进校园时，桑桑看到了站在梧桐树下的纸月。",
@@ -1233,32 +1085,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\8.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "纸月",
-                    "contain_seg": [
-                        19
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "梧桐树",
-                    "contain_seg": [
-                        16,
-                        17
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "站",
-                    "contain_seg": [
-                        15
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/8.html",
+            "schema": "下5"
         },
         "judge": false
     },
@@ -1412,31 +1240,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\9.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "饭碗",
-                    "contain_seg": [
-                        6
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "搁",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "灶台",
-                    "contain_seg": [
-                        9
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/9.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "他突然转过身，把饭碗搁到了灶台下，走出了厨房，来到了屋后。",
@@ -1586,31 +1391,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\10.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "饭碗",
-                    "contain_seg": [
-                        6
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "灶台",
-                    "contain_seg": [
-                        9
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "搁",
-                    "contain_seg": [
-                        7
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/10.html",
+            "schema": "下5"
         },
         "judge": false
     },
@@ -1862,31 +1644,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\11.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "碑文",
-                    "contain_seg": [
-                        32
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "大字",
-                    "contain_seg": [
-                        26
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "刻",
-                    "contain_seg": [
-                        28
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/11.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "塔基前端中央的一块黑色大碑石上，用中苏两国文字刻着“永恒的光荣”五个大字。大字下面刻着两行碑文。",
@@ -2134,31 +1893,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\12.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "大字",
-                    "contain_seg": [
-                        26
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "碑文",
-                    "contain_seg": [
-                        32
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "刻",
-                    "contain_seg": [
-                        28
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/12.html",
+            "schema": "下1"
         },
         "judge": false
     },
@@ -2368,25 +2104,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\13.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "屋顶",
-                    "contain_seg": [
-                        6,
-                        7
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "白炽灯",
-                    "contain_seg": [
-                        14
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/13.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "他的房间不大，但屋顶特高，下面有一只白炽灯，每天晚上开着，这常常使他无法睡眠。",
@@ -2592,25 +2311,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\14.html",
-            "schema": "下3",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "屋顶",
-                    "contain_seg": [
-                        6,
-                        7
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "白炽灯",
-                    "contain_seg": [
-                        14
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/14.html",
+            "schema": "下3"
         },
         "judge": true
     },
@@ -2743,31 +2445,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\15.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "你",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "站",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "纪念碑",
-                    "contain_seg": [
-                        7
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/15.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "你可以站在荔园堡的纪念碑下，默默回望一段红色历史。",
@@ -2896,31 +2575,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\16.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "你",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "纪念碑",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "站",
-                    "contain_seg": [
-                        2
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/16.html",
+            "schema": "下5"
         },
         "judge": false
     },
@@ -3130,32 +2786,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\17.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "烂臭泥",
-                    "contain_seg": [
-                        19
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "脚底板",
-                    "contain_seg": [
-                        15,
-                        16
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "贴",
-                    "contain_seg": [
-                        13
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/17.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "这时，我才警觉到，这支部队把政工队当作贴在脚底板下的烂臭泥一样，恨不得立时甩掉。",
@@ -3361,32 +2993,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\18.html",
-            "schema": "下3",
-            "spatial": [
-                {
-                    "label": "event",
-                    "word": "贴",
-                    "contain_seg": [
-                        13
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "脚底板",
-                    "contain_seg": [
-                        15,
-                        16
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "烂臭泥",
-                    "contain_seg": [
-                        19
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/18.html",
+            "schema": "下3"
         },
         "judge": true
     },
@@ -3540,31 +3148,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\19.html",
-            "schema": "上21；上23；上11",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "洗手液",
-                    "contain_seg": [
-                        9
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "尸体",
-                    "contain_seg": [
-                        18
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "粘",
-                    "contain_seg": [
-                        12
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/19.html",
+            "schema": "上21；上23；上11"
         },
         "context2": {
             "sentence": "进门口的架子上，摆着一瓶洗手液，下边粘着苍蝇和蚊子的尸体。",
@@ -3714,31 +3299,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\20.html",
-            "schema": "下3",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "洗手液",
-                    "contain_seg": [
-                        9
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "尸体",
-                    "contain_seg": [
-                        18
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "粘",
-                    "contain_seg": [
-                        12
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/20.html",
+            "schema": "下3"
         },
         "judge": true
     },
@@ -3920,31 +3482,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\21.html",
-            "schema": "上15",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "保险",
-                    "contain_seg": [
-                        14
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "窑",
-                    "contain_seg": [
-                        12
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "建设",
-                    "contain_seg": [
-                        15
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/21.html",
+            "schema": "上15"
         },
         "context2": {
             "sentence": "自国民党特务盘据门头沟以来，贪污肥己，丝毫不顾窑下保险建设，以致矿工生命安全毫无保障。",
@@ -4122,31 +3661,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\22.html",
-            "schema": "下4",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "窑",
-                    "contain_seg": [
-                        12
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "保险",
-                    "contain_seg": [
-                        14
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "建设",
-                    "contain_seg": [
-                        15
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/22.html",
+            "schema": "下4"
         },
         "judge": false
     },
@@ -4419,32 +3935,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\23.html",
-            "schema": "上23",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "蒋一轮",
-                    "contain_seg": [
-                        0,
-                        1
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "倚",
-                    "contain_seg": [
-                        27
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "树",
-                    "contain_seg": [
-                        29
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/23.html",
+            "schema": "上23"
         },
         "context2": {
             "sentence": "蒋一轮用手推了一下鼻梁上的眼镜，将信接到手中，然后转过身去，走到一棵树下，倚在树下，打开了那封信。",
@@ -4713,32 +4205,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\24.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "蒋一轮",
-                    "contain_seg": [
-                        0,
-                        1
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "倚",
-                    "contain_seg": [
-                        27
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "树",
-                    "contain_seg": [
-                        29
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/24.html",
+            "schema": "下5"
         },
         "judge": true
     },
@@ -4850,31 +4318,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\25.html",
-            "schema": "上12",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "脸",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "枕头",
-                    "contain_seg": [
-                        4
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "埋",
-                    "contain_seg": [
-                        2
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/25.html",
+            "schema": "上12"
         },
         "context2": {
             "sentence": "查尔斯把脸埋在枕头下。可以听到一声声凄惨的哭喊声。",
@@ -4982,31 +4427,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\26.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "脸",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "枕头",
-                    "contain_seg": [
-                        4
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "埋",
-                    "contain_seg": [
-                        2
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/26.html",
+            "schema": "下1"
         },
         "judge": false
     },
@@ -5258,32 +4680,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\27.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "皮鞋",
-                    "contain_seg": [
-                        23
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "安",
-                    "contain_seg": [
-                        21
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "木线轴",
-                    "contain_seg": [
-                        20,
-                        21
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/27.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "最初有位荷兰的滑冰运动员，为了在不结冰的季节继续进行训练，尝试把木线轴安在皮鞋下，试图在平坦的地面上滑行。",
@@ -5531,32 +4929,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\28.html",
-            "schema": "下3",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "木线轴",
-                    "contain_seg": [
-                        20,
-                        21
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "皮鞋",
-                    "contain_seg": [
-                        23
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "安",
-                    "contain_seg": [
-                        21
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/28.html",
+            "schema": "下3"
         },
         "judge": true
     },
@@ -5857,31 +5231,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\29.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "篮子",
-                    "contain_seg": [
-                        26
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "挂",
-                    "contain_seg": [
-                        18
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "胳膊",
-                    "contain_seg": [
-                        21
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/29.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "这里上车的人不少，下车的只有一位旅客，那就是香雪，原来挂在她胳膊下的那只篮子不见了，她把它塞到那个女学生座位底了。",
@@ -6178,31 +5529,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\30.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "event",
-                    "word": "挂",
-                    "contain_seg": [
-                        18
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "胳膊",
-                    "contain_seg": [
-                        21
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "篮子",
-                    "contain_seg": [
-                        26
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/30.html",
+            "schema": "下1"
         },
         "judge": true
     },
@@ -6412,31 +5740,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\31.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "调色板",
-                    "contain_seg": [
-                        19
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "挂",
-                    "contain_seg": [
-                        23
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "脖子",
-                    "contain_seg": [
-                        25
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/31.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "列宾生命的最后几年，右手已不能握画笔，他就改用左手画；调色板则借助皮带挂在脖子下面。",
@@ -6642,31 +5947,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\32.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "调色板",
-                    "contain_seg": [
-                        19
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "脖子",
-                    "contain_seg": [
-                        25
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "挂",
-                    "contain_seg": [
-                        23
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/32.html",
+            "schema": "下1"
         },
         "judge": true
     },
@@ -6813,31 +6095,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\33.html",
-            "schema": "上21；上23；上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "说明",
-                    "contain_seg": [
-                        10
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "粘",
-                    "contain_seg": [
-                        13
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "鱼缸",
-                    "contain_seg": [
-                        15
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/33.html",
+            "schema": "上21；上23；上11"
         },
         "context2": {
             "sentence": "校长办公桌上面有一个方形的鱼缸。饲养说明死死地粘在鱼缸的下面。",
@@ -6980,31 +6239,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\34.html",
-            "schema": "下3",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "说明",
-                    "contain_seg": [
-                        10
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "粘",
-                    "contain_seg": [
-                        13
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "鱼缸",
-                    "contain_seg": [
-                        15
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/34.html",
+            "schema": "下3"
         },
         "judge": true
     },
@@ -7284,24 +6520,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\35.html",
-            "schema": "上12",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "老家",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "太行山",
-                    "contain_seg": [
-                        4
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/35.html",
+            "schema": "上12"
         },
         "context2": {
             "sentence": "不知多少次从太行山下的老家坐普速列车前往郑州，再转车去外地打工，峡谷中列车的“哐当”声成了施工队员王旭明抹不去的记忆。",
@@ -7577,24 +6797,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\36.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "老家",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "太行山",
-                    "contain_seg": [
-                        4
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/36.html",
+            "schema": "下5"
         },
         "judge": false
     },
@@ -7706,31 +6910,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\37.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "乒乓球",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "地",
-                    "contain_seg": [
-                        12
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "滚落",
-                    "contain_seg": [
-                        10
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/37.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "乒乓球先是旋转了几下，接着从台面滚落到地下。",
@@ -7838,31 +7019,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\38.html",
-            "schema": "下x",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "乒乓球",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "滚落",
-                    "contain_seg": [
-                        10
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "地",
-                    "contain_seg": [
-                        12
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/38.html",
+            "schema": "下x"
         },
         "judge": true
     },
@@ -8086,24 +7244,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\39.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "名字",
-                    "contain_seg": [
-                        22
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "名字",
-                    "contain_seg": [
-                        27
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/39.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "今天是学校期末考试排名放榜的时间。小玉怀着紧张的心情去看排名榜，发现自己的名字还是在小宇的名字下边。",
@@ -8323,24 +7465,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\40.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "名字",
-                    "contain_seg": [
-                        22
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "名字",
-                    "contain_seg": [
-                        27
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/40.html",
+            "schema": "下1"
         },
         "judge": false
     },
@@ -8459,31 +7585,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\41.html",
-            "schema": "上22",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "雏鹰",
-                    "contain_seg": [
-                        13
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "蓝天",
-                    "contain_seg": [
-                        9
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "翱翔",
-                    "contain_seg": [
-                        11
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/41.html",
+            "schema": "上22"
         },
         "context2": {
             "sentence": "从苍苍茫茫的草原走来，我是蓝天下翱翔的雏鹰。",
@@ -8598,32 +7701,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\42.html",
-            "schema": "下2",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "蓝天",
-                    "contain_seg": [
-                        9,
-                        10
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "雏鹰",
-                    "contain_seg": [
-                        13
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "翱翔",
-                    "contain_seg": [
-                        11
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/42.html",
+            "schema": "下2"
         },
         "judge": true
     },
@@ -8749,24 +7828,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\43.html",
-            "schema": "上12",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "雪莲",
-                    "contain_seg": [
-                        14
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "冰山",
-                    "contain_seg": [
-                        9
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/43.html",
+            "schema": "上12"
         },
         "context2": {
             "sentence": "从巍峨峻拔的高原走来，我是冰山下的一朵雪莲。",
@@ -8888,24 +7951,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\44.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "雪莲",
-                    "contain_seg": [
-                        14
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "冰山",
-                    "contain_seg": [
-                        9
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/44.html",
+            "schema": "下5"
         },
         "judge": false
     },
@@ -9045,31 +8092,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\45.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "他",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "树",
-                    "contain_seg": [
-                        4
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "坐",
-                    "contain_seg": [
-                        1
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/45.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "他坐在路边的树下，吹着口哨，试图吸引路过女孩子的注意。",
@@ -9205,31 +8229,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\46.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "树",
-                    "contain_seg": [
-                        4
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "他",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "坐",
-                    "contain_seg": [
-                        1
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/46.html",
+            "schema": "下5"
         },
         "judge": false
     },
@@ -9446,24 +8447,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\47.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "署名",
-                    "contain_seg": [
-                        16
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "底面",
-                    "contain_seg": [
-                        8
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/47.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "人家拿起一座关二爷根雕，把底面翻过来，指着下边的署名给他看，正是“古元”两个字。",
@@ -9676,24 +8661,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\48.html",
-            "schema": "下3",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "署名",
-                    "contain_seg": [
-                        16
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "根雕",
-                    "contain_seg": [
-                        5
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/48.html",
+            "schema": "下3"
         },
         "judge": true
     },
@@ -9889,31 +8858,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\49.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "兰兰",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "潜水桥",
-                    "contain_seg": [
-                        4
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "站",
-                    "contain_seg": [
-                        2
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/49.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "兰兰惊奇地站在潜水桥下，透过玻璃看见大大小小的鱼游来游去，各种各样的船只从桥顶上驶过来划过去。",
@@ -10105,31 +9051,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\50.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "兰兰",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "潜水桥",
-                    "contain_seg": [
-                        4
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "站",
-                    "contain_seg": [
-                        2
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/50.html",
+            "schema": "下1"
         },
         "judge": false
     },
@@ -10318,31 +9241,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\51.html",
-            "schema": "上14",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "事件",
-                    "contain_seg": [
-                        10
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "发生",
-                    "contain_seg": [
-                        8
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "楼",
-                    "contain_seg": [
-                        5
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/51.html",
+            "schema": "上14"
         },
         "context2": {
             "sentence": "加拿大多伦多郊区一公寓楼下当天夜间发生枪击事件，导致包括枪手在内的6人死亡、1人受伤。",
@@ -10527,31 +9427,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\52.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "楼",
-                    "contain_seg": [
-                        5
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "发生",
-                    "contain_seg": [
-                        8
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "事件",
-                    "contain_seg": [
-                        10
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/52.html",
+            "schema": "下5"
         },
         "judge": false
     },
@@ -10733,31 +9610,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\53.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "李光头",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "桥栏",
-                    "contain_seg": [
-                        16
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "坐",
-                    "contain_seg": [
-                        18
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/53.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "李光头没有去乡下，走到南门外的木桥上就站住了，在桥栏下坐了两个小时。",
@@ -10935,31 +9789,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\54.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "李光头",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "桥栏",
-                    "contain_seg": [
-                        16
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "坐",
-                    "contain_seg": [
-                        18
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/54.html",
+            "schema": "下5"
         },
         "judge": false
     },
@@ -11176,31 +10007,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\55.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "铃铛",
-                    "contain_seg": [
-                        27
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "脖子",
-                    "contain_seg": [
-                        19
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "吊",
-                    "contain_seg": [
-                        22
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/55.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "小黑羊长着两只蓝宝石般的眼睛，披一身黑缎子似的绒毛，圆圆的脖子下面还吊着两只肉铃铛。",
@@ -11413,31 +10221,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\56.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "脖子",
-                    "contain_seg": [
-                        19
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "吊",
-                    "contain_seg": [
-                        22
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "铃铛",
-                    "contain_seg": [
-                        27
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/56.html",
+            "schema": "下1"
         },
         "judge": true
     },
@@ -11682,31 +10467,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\57.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "event",
-                    "word": "堆",
-                    "contain_seg": [
-                        21
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "城墙",
-                    "contain_seg": [
-                        23
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "树干",
-                    "contain_seg": [
-                        27
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/57.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "工务段需要争取在业余时间完成一千个洋镐把，但缺乏木料，工人们便研究将堆在城墙下边的干死树干拿过来作为原料。",
@@ -11947,31 +10709,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\58.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "树干",
-                    "contain_seg": [
-                        27
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "城墙",
-                    "contain_seg": [
-                        23
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "堆",
-                    "contain_seg": [
-                        21
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/58.html",
+            "schema": "下5"
         },
         "judge": false
     },
@@ -12139,24 +10878,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\59.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "建筑物",
-                    "contain_seg": [
-                        20
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "地",
-                    "contain_seg": [
-                        18
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/59.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "我们考察一个地区的文明程度，不仅要依靠文献记载，还要注意实地考察地下的建筑物。",
@@ -12320,24 +11043,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\60.html",
-            "schema": "下2",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "地",
-                    "contain_seg": [
-                        18
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "建筑物",
-                    "contain_seg": [
-                        20
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/60.html",
+            "schema": "下2"
         },
         "judge": false
     },
@@ -12491,31 +11198,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\61.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "轨道",
-                    "contain_seg": [
-                        12
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "安装",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "天花板",
-                    "contain_seg": [
-                        5
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/61.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "我仰面躺着，天花板下安装了一圈轻钢轨道，挂输液瓶子用的。",
@@ -12665,31 +11349,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\62.html",
-            "schema": "下3",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "轨道",
-                    "contain_seg": [
-                        12
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "安装",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "天花板",
-                    "contain_seg": [
-                        5
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/62.html",
+            "schema": "下3"
         },
         "judge": true
     },
@@ -12843,31 +11504,8 @@
                     "relation": "ROOT"
                 }
             ],
-            "html": "pictures\\with_spatial\\63.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "月光",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "映射",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "天花板",
-                    "contain_seg": [
-                        11
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/63.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "朦胧的月光照在河面上，映射在桥亭的天花板下面，一闪一闪的。",
@@ -13017,31 +11655,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\64.html",
-            "schema": "下3",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "月光",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "映射",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "天花板",
-                    "contain_seg": [
-                        11
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/64.html",
+            "schema": "下3"
         },
         "judge": true
     },
@@ -13202,24 +11817,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\65.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "毒品",
-                    "contain_seg": [
-                        15
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "纸箱",
-                    "contain_seg": [
-                        8
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/65.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "杨一刚再次对中巴车进行搜查，结果纸箱下装在黑色塑料袋内的毒品也被发现了。",
@@ -13376,24 +11975,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\66.html",
-            "schema": "下1；下5",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "纸箱",
-                    "contain_seg": [
-                        8
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "毒品",
-                    "contain_seg": [
-                        15
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/66.html",
+            "schema": "下1；下5"
         },
         "judge": false
     },
@@ -13568,24 +12151,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\67.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "盒子",
-                    "contain_seg": [
-                        0
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "卡片",
-                    "contain_seg": [
-                        5
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/67.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "盒子下面还有一张卡片，你一定记得看看，卡片中写着我想对你说的话。",
@@ -13756,24 +12323,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\68.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "卡片",
-                    "contain_seg": [
-                        5
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "盒子",
-                    "contain_seg": [
-                        0
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/68.html",
+            "schema": "下1"
         },
         "judge": false
     },
@@ -13948,31 +12499,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\69.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "老师",
-                    "contain_seg": [
-                        3
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "讲台",
-                    "contain_seg": [
-                        5
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "踱",
-                    "contain_seg": [
-                        7
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/69.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "一位男老师在讲台下边踱着步，听着孩子们大声整齐地念着羌语的词汇。",
@@ -14143,31 +12671,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\70.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "讲台",
-                    "contain_seg": [
-                        5
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "踱",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "老师",
-                    "contain_seg": [
-                        3
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/70.html",
+            "schema": "下5"
         },
         "judge": false
     },
@@ -14405,31 +12910,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\71.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "两手",
-                    "contain_seg": [
-                        15
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "大腿",
-                    "contain_seg": [
-                        21
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "放",
-                    "contain_seg": [
-                        19
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/71.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "跪坐在地面，将腰背挺直，两腿并拢，肩部放松，两手分别自然地放在大腿下，目视前方，自然均匀地呼吸。",
@@ -14663,31 +13145,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\72.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "两手",
-                    "contain_seg": [
-                        15
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "放",
-                    "contain_seg": [
-                        19
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "大腿",
-                    "contain_seg": [
-                        21
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/72.html",
+            "schema": "下1"
         },
         "judge": false
     },
@@ -15002,31 +13461,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\73.html",
-            "schema": "上23",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "木梯子",
-                    "contain_seg": [
-                        22
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "靠",
-                    "contain_seg": [
-                        23
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "梨树",
-                    "contain_seg": [
-                        28
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/73.html",
+            "schema": "上23"
         },
         "context2": {
             "sentence": "他虽然七十二岁了，还挺精神，声音洪亮，一边与我唠着话，一边将木梯子靠放在一棵梨树下，熟练地爬上去，整理被风吹乱的鸟窝。",
@@ -15330,31 +13766,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\74.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "木梯子",
-                    "contain_seg": [
-                        22
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "梨树",
-                    "contain_seg": [
-                        28
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "靠",
-                    "contain_seg": [
-                        23
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/74.html",
+            "schema": "下5"
         },
         "judge": true
     },
@@ -15536,31 +13949,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\75.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "收据",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "键盘",
-                    "contain_seg": [
-                        6
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "放",
-                    "contain_seg": [
-                        4
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/75.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "那张收据我放在办公桌键盘下边了。我下午在外面开会。你自己去我办公室拿一下。",
@@ -15738,31 +14128,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\76.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "收据",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "放",
-                    "contain_seg": [
-                        4
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "键盘",
-                    "contain_seg": [
-                        6
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/76.html",
+            "schema": "下1"
         },
         "judge": false
     },
@@ -15965,31 +14332,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\77.html",
-            "schema": "上24",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "墙布",
-                    "contain_seg": [
-                        12
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "葡萄酒",
-                    "contain_seg": [
-                        18
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "烤鸡",
-                    "contain_seg": [
-                        25
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/77.html",
+            "schema": "上24"
         },
         "context2": {
             "sentence": "厨房里的桌子上方挂着一块苹果和梨图案的墙布，下面还有一瓶葡萄酒和一只没有脑袋的烤鸡。",
@@ -16188,31 +14532,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\78.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "图案",
-                    "contain_seg": [
-                        10
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "葡萄酒",
-                    "contain_seg": [
-                        18
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "烤鸡",
-                    "contain_seg": [
-                        25
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/78.html",
+            "schema": "下1"
         },
         "judge": true
     },
@@ -16457,31 +14778,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\79.html",
-            "schema": "上23",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "英文",
-                    "contain_seg": [
-                        31
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "注上",
-                    "contain_seg": [
-                        30
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "牌子",
-                    "contain_seg": [
-                        12
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/79.html",
+            "schema": "上23"
         },
         "context2": {
             "sentence": "果然，他用草板纸自制了一个约半尺长的长方形牌子，用毛笔写着“我是中国人”几个大字，并在下边注上英文。",
@@ -16722,31 +15020,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\80.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "大字",
-                    "contain_seg": [
-                        25
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "注上",
-                    "contain_seg": [
-                        30
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "英文",
-                    "contain_seg": [
-                        31
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/80.html",
+            "schema": "下1"
         },
         "judge": true
     },
@@ -16949,31 +15224,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\81.html",
-            "schema": "上14",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "本子",
-                    "contain_seg": [
-                        8
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "画",
-                    "contain_seg": [
-                        14
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "图",
-                    "contain_seg": [
-                        16
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/81.html",
+            "schema": "上14"
         },
         "context2": {
             "sentence": "他把学了的字写在本子上，再在下面画一个图，忘了时可从图上记起来。",
@@ -17172,31 +15424,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\82.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "字",
-                    "contain_seg": [
-                        5
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "图",
-                    "contain_seg": [
-                        16
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "画",
-                    "contain_seg": [
-                        14
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/82.html",
+            "schema": "下1"
         },
         "judge": true
     },
@@ -17490,31 +15719,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\83.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "滑轮",
-                    "contain_seg": [
-                        23
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "绳索",
-                    "contain_seg": [
-                        8
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "吊",
-                    "contain_seg": [
-                        20
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/83.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "实施吊装时，一根粗实的绳索从山顶下垂到距岩洞口31米处，下面吊着定向滑轮，另一根绳索穿过滑轮，一头捆住棺木，一头连着绞车。",
@@ -17804,31 +16010,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\84.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "绳索",
-                    "contain_seg": [
-                        8
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "吊",
-                    "contain_seg": [
-                        20
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "滑轮",
-                    "contain_seg": [
-                        23
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/84.html",
+            "schema": "下1"
         },
         "judge": true
     },
@@ -18087,31 +16270,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\85.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "香蕉",
-                    "contain_seg": [
-                        15
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "纸条儿",
-                    "contain_seg": [
-                        30
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "拴",
-                    "contain_seg": [
-                        27
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/85.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "父亲也不出门，在花园中收拾花草。把一串大绿香蕉也摘下来，挂在堂中，下面还拴上一些五彩纸条儿，真是好看。",
@@ -18366,31 +16526,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\86.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "香蕉",
-                    "contain_seg": [
-                        15
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "拴",
-                    "contain_seg": [
-                        27
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "纸条儿",
-                    "contain_seg": [
-                        30
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/86.html",
+            "schema": "下1"
         },
         "judge": true
     },
@@ -18530,24 +16667,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\87.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "书",
-                    "contain_seg": [
-                        8
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "法币",
-                    "contain_seg": [
-                        14
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/87.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "王稼祥打开第二个箱子，里边还是书，不过下边有国民党法币500元。",
@@ -18683,24 +16804,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\88.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "书",
-                    "contain_seg": [
-                        8
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "法币",
-                    "contain_seg": [
-                        14
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/88.html",
+            "schema": "下1"
         },
         "judge": false
     },
@@ -18805,31 +16910,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\89.html",
-            "schema": "上14",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "楦头",
-                    "contain_seg": [
-                        11
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "架子",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "摆满",
-                    "contain_seg": [
-                        9
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/89.html",
+            "schema": "上14"
         },
         "context2": {
             "sentence": "神像两边是两排架子，架子下摆满了楦头。",
@@ -18930,31 +17012,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\90.html",
-            "schema": "下1；下5",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "架子",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "楦头",
-                    "contain_seg": [
-                        11
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "摆满",
-                    "contain_seg": [
-                        9
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/90.html",
+            "schema": "下1；下5"
         },
         "judge": false
     },
@@ -19143,31 +17202,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\91.html",
-            "schema": "上21；上23；上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "炸弹",
-                    "contain_seg": [
-                        10
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "飞机",
-                    "contain_seg": [
-                        6
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "装有",
-                    "contain_seg": [
-                        8
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/91.html",
+            "schema": "上21；上23；上11"
         },
         "context2": {
             "sentence": "赫鲁晓夫还说，这架飞机下面装有定时炸弹。为了灭除罪迹，飞行员被教导不得为苏联当局活擒。",
@@ -19352,31 +17388,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\92.html",
-            "schema": "下4",
-            "spatial": [
-                {
-                    "label": "landmark",
-                    "word": "飞机",
-                    "contain_seg": [
-                        6
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "装有",
-                    "contain_seg": [
-                        8
-                    ]
-                },
-                {
-                    "label": "trajectory",
-                    "word": "炸弹",
-                    "contain_seg": [
-                        10
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/92.html",
+            "schema": "下4"
         },
         "judge": true
     },
@@ -19481,24 +17494,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\93.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "书堆",
-                    "contain_seg": [
-                        3
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "桌",
-                    "contain_seg": [
-                        1
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/93.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "在桌下的书堆中间有本皮面装订的小书。",
@@ -19599,24 +17596,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\94.html",
-            "schema": "下1；下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "书堆",
-                    "contain_seg": [
-                        3
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "桌",
-                    "contain_seg": [
-                        1
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/94.html",
+            "schema": "下1；下5"
         },
         "judge": false
     },
@@ -19763,31 +17744,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\95.html",
-            "schema": "上21",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "摇篮",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "挂",
-                    "contain_seg": [
-                        14
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "屋梁",
-                    "contain_seg": [
-                        16
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/95.html",
+            "schema": "上21"
         },
         "context2": {
             "sentence": "达斡尔族的摇篮很有特色，它象一叶扁舟，半倾斜地垂挂在屋梁下。",
@@ -19930,31 +17888,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\96.html",
-            "schema": "下1",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "摇篮",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "挂",
-                    "contain_seg": [
-                        14
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "屋梁",
-                    "contain_seg": [
-                        16
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/96.html",
+            "schema": "下1"
         },
         "judge": true
     },
@@ -20094,31 +18029,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\97.html",
-            "schema": "上11",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "我",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "蹲",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "土台",
-                    "contain_seg": [
-                        10
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/97.html",
+            "schema": "上11"
         },
         "context2": {
             "sentence": "黄昏，我端着碗，蹲在门口的土台下，等伙伴们来捉迷藏。",
@@ -20254,31 +18166,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\98.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "我",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "蹲",
-                    "contain_seg": [
-                        7
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "土台",
-                    "contain_seg": [
-                        10
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/98.html",
+            "schema": "下5"
         },
         "judge": false
     },
@@ -20453,32 +18342,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\99.html",
-            "schema": "上23",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "蒋一轮",
-                    "contain_seg": [
-                        0,
-                        1
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "倚",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "柳树",
-                    "contain_seg": [
-                        4
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/99.html",
+            "schema": "上23"
         },
         "context2": {
             "sentence": "蒋一轮倚在柳树下，用的是让桑桑最着迷的姿势：两腿微微交叉着。",
@@ -20649,32 +18514,8 @@
                     "relation": "punct"
                 }
             ],
-            "html": "pictures\\with_spatial\\100.html",
-            "schema": "下5",
-            "spatial": [
-                {
-                    "label": "trajectory",
-                    "word": "蒋一轮",
-                    "contain_seg": [
-                        0,
-                        1
-                    ]
-                },
-                {
-                    "label": "event",
-                    "word": "倚",
-                    "contain_seg": [
-                        2
-                    ]
-                },
-                {
-                    "label": "landmark",
-                    "word": "柳树",
-                    "contain_seg": [
-                        4
-                    ]
-                }
-            ]
+            "html": "pictures/without_spatial/100.html",
+            "schema": "下5"
         },
         "judge": true
     }

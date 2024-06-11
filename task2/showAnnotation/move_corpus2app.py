@@ -140,33 +140,38 @@ def help(func_name: ProgramFunc = None):
             program_func: 使用的函数. 选项有'add', 'update', 'delete', 'help', 'show'.
             rp_pair: 需要操作的替换对.
             file_path: 包含句子对的json文件路径.
+        功能: 具体使用方法请查看对应函数的帮助信息. 查询方法: python move_corpus2app.py help [func_name]
             """)
     elif func_name == 'add':
         print("""
         使用方法: python move_corpus2app.py add [rp_pair] [file_path]
             rp_pair: 需要操作的替换对.
             file_path: 包含句子对的json文件路径.
+        功能: 为指定的方位词替换对添加语料信息.
             """)
     elif func_name == 'update':
         print("""
         使用方法: python move_corpus2app.py update [rp_pair] [file_path]
             rp_pair: 需要操作的替换对.
             file_path: 包含句子对的json文件路径.
+        功能: 更新指定的方位词替换对的语料信息.
             """)
     elif func_name == 'delete':
         print("""
         使用方法: python move_corpus2app.py delete [rp_pair]
             rp_pair: 需要操作的替换对.
+        功能: 删除指定的方位词替换对的语料信息.
             """)
     elif func_name == 'show':
         print("""
         使用方法: python move_corpus2app.py show
-            显示所有已有的替换对.
+        功能: 显示所有已有的替换对.
             """)
     elif func_name == 'help':
         print("""
         使用方法: python move_corpus2app.py help [func_name]
             func_name: 需要查看帮助的函数名.
+        功能: 查看指定函数的帮助信息.
             """)
     else:
         raise ValueError(f"没有操作'{func_name}'")

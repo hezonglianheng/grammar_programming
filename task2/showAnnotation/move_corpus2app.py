@@ -163,6 +163,11 @@ def help(func_name: ProgramFunc = None):
         使用方法: python move_corpus2app.py show
             显示所有已有的替换对.
             """)
+    elif func_name == 'help':
+        print("""
+        使用方法: python move_corpus2app.py help [func_name]
+            func_name: 需要查看帮助的函数名.
+            """)
     else:
         raise ValueError(f"没有操作'{func_name}'")
 

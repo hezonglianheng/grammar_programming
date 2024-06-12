@@ -25,8 +25,11 @@ CONTEXT2 = 'context2'
 SENTENCE = 'sentence'
 JUDGE = 'judge'
 SCHEMA = 'schema'
+SEG = 'seg'
 
 # 整理结果
 RESULT_DIR = r'llm_results'
 # 统计结果
 STATISTICS_FILE = r'statistics.xlsx'
+# 检查结果
+CHECK_FILE = r'check_res/check_res.json'
